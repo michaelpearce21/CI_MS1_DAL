@@ -1,4 +1,4 @@
-# 'Dice and Lattes' Board Game Cafe, Cardiff
+# 'Dice and Lattes' Board Game Cafe, Cearphilly
 ### An assessed project for the Code Institute
 
 Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
@@ -47,7 +47,7 @@ There are several identified needs from these stories. In dicussion with the cli
 5. A menu and pricing information. 
 6. A gallery page.
 
-These were taken and assessed agains the limitations of time (2 weeks) and buget, and given related viability / feasability score (opportunity numbers relate to above):
+These were taken and assessed agains the limitations of time and buget, and given related viability / feasability score (opportunity numbers relate to above):
 
 
 | Opportunity      | Importance    | Viability     |
@@ -60,7 +60,15 @@ These were taken and assessed agains the limitations of time (2 weeks) and buget
 | 6                | 2             | 4              |
 
 
-From this exercise it was clear that there needed to be some compromise on the scope of the project in order to complete a project in the alloted time. It was agreed that the most viable elements should be those to make up the initial release of the website, wiht the online shop to be a feature held back until a future release of the website. 
+From this exercise it was clear that there needed to be some compromise on the scope of the project. It was agreed that the most viable elements scored as a 5 should be those to make up the initial release of the website, wiht the online shop to be a feature held back until a future release of the website. 
+
+Therefore, the key requirements of the initial website were:
+* An attractive and well designed website. 
+* Information about the business incluing the concept, location and contact details. 
+* A way to contact the cafe from the website.
+* A menu and pricing information.
+
+
 
 
 
@@ -74,5 +82,5 @@ Markdown table syntax taken and adapted from: https://www.makeuseof.com/tag/crea
 
 This project is completed for the purposes of evaluation by the Code Institute towards a Diploma in Web Development. It is purely for educational purposes and is not intended as a commercial venture. 
 
-All non-attributed code and content is created by Michael Pearce. 
+All non-attributed code and content is created by Michael Pearce. See me on [GitHub](https://github.com/michaelpearce21/)
 
