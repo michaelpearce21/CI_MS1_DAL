@@ -1,59 +1,78 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# 'Dice and Lattes' Board Game Cafe, Cardiff
+### An assessed project for the Code Institute
 
-Welcome USER_NAME,
+Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Alongside the extensive and growing collection of **board games**, our **Game Experts** will assist with game learning and make recommendations appropriate to guests requirements (such as player number and skill). Furthermore, excellent customer service through teaching these games to customer will keep people wanting to come and game!
 
-## Gitpod Reminders
+## Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* User Experience and Design
+    * User Stories
+    * High Level Needs and Trade-offs
 
-`python3 -m http.server`
+* Technologies Used
+* Deployment
+* Bugs and Issues
+* Acknowledgement
+* Disclaimer
 
-A blue button should appear to click: _Make Public_,
+## User Experience and Design
 
-Another blue button should appear to click: _Open Browser_.
+The needs of the **business owners**, and **customers** have been considered in the designing phase of this project. These have been summerised into the following user stories:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories:
+As a **business owner** I want a website so that I can expose my business more. In doing this our aims are that:
+* More people know about the business locally.
+* The concept is easily and clearly explained.
+* Customers can find the cafe and contact us. 
+* A focus on the menu as well as games.
+* The website is attractive and intuitive to potential customers. 
+* There is a way to book tables and sell games. 
 
-A blue button should appear to click: _Make Public_,
+As a **customer** I want a website to understand what makes this cafe special. To do this I need:
+* Information on what is different about this cafe, easily digestible and clearly explained. 
+* Information about the menu and pricing. 
+* Information about how to find and contaxct the cafe. 
+* To be able to book tables direct from the website. 
 
-Another blue button should appear to click: _Open Browser_.
+### High level Needs and Trade-offs:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+There are several identified needs from these stories. In dicussion with the client, these were ranked from most to least important:
 
-To log into the Heroku toolbelt CLI:
+1. An attractive and well designed website. 
+2. Information about the business incluing the concept, location and contact details. 
+3. A way to contact the cafe from the website.
+4. A shop where you can purchase games and pre-book tables.
+5. A menu and pricing information. 
+6. A gallery page.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+These were taken and assessed agains the limitations of time (2 weeks) and buget, and given related viability / feasability score (opportunity numbers relate to above):
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
 
-## Updates Since The Instructional Video
+| Opportunity      | Importance    | Viability     |
+| :-------------:   | :----------:  | :-----------: |
+| 1                | 5             | 5              |
+| 2                | 5             | 5              |
+| 3                | 4             | 5              |
+| 4                | 4             | 1              |
+| 5                | 3             | 5              |
+| 6                | 2             | 4              |
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+From this exercise it was clear that there needed to be some compromise on the scope of the project in order to complete a project in the alloted time. It was agreed that the most viable elements should be those to make up the initial release of the website, wiht the online shop to be a feature held back until a future release of the website. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Acknowledgements:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Where pre-made code has been used and not directly attributed to in HTML / CSS it is below:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Markdown table syntax taken and adapted from: https://www.makeuseof.com/tag/create-markdown-table/#:~:text=Markdown%20makes%20it%20simple%20to,even%20make%20tables%20with%20Markdown.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Disclaimer
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This project is completed for the purposes of evaluation by the Code Institute towards a Diploma in Web Development. It is purely for educational purposes and is not intended as a commercial venture. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+All non-attributed code and content is created by Michael Pearce. 
 
----
-
-Happy coding!
