@@ -11,6 +11,7 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
     * High Level Idea
     * User Stories
     * High Level Needs and Trade-offs
+    * Colour and Typography Design
 
 * Technologies Used
 * Deployment
@@ -74,17 +75,26 @@ Therefore, the key requirements of the initial website were:
 * A way to contact the cafe from the website.
 * A menu and pricing information.
 
-### Design:
+### Colour and Typography Design:
 
 From the requirements it is clear to see an attractive website design, appealing to potential customers is key. There does not need to be blocks of technical language, graphs or tables, but images and summaries which will be enticing to customers. 
 
 Board games come with their own shorthand mental shortcuts for colour and we are all familiar with the bold primary colors of red, blue and yellow being used for pieces. There is a fear of uing too bold and bright colour being garish and harsh, so palettes were experimented with to give a general direction with colours for the project. Using the [coolers](https://coolors.co/04e762-f5b700-dc0073-008bf8-89fc00) website such a pallete was found, although this is an area which may be experimented on more as the project develops, usability and readability being important. 
 
-![Proposed Project colour pallete](/assets/images/MS1-colours.png "Proposed Project colour pallette")
+![Proposed Project colour pallete](assets/images/MS1-colours.png "Proposed Project colour pallette")
+
+In terms of fonts, readability was the key to chosen fonts, as well as being conscious of needing to make a positive impression in potentially a short space of time. For these reasons, two popular fonts have been chosen 'Roboto' for header elements and 'Montserrat' for the main text elements.
+
+![Proposed fonts](assets/images/MS1-fonts.png "Proposed fonts")
 
 ### Wireframes:
 
+From the requirements of the website it was decided the initial release should include 3 pages:
+  * A home page which will include the headline informaiton about the cafe and the concept. Contact informaiton such as location and social media links should also be included. 
+  * A menu page which should highlight the food and drinks on offer. 
+  * A contact page which will highlight social media links as well as include a form for comments and questions. 
 
+Wireframes of the pages for mobile / small and laptop / large screens can be found [here](wireframes.html). 
 
 
 ### Acknowledgements:
@@ -92,6 +102,8 @@ Board games come with their own shorthand mental shortcuts for colour and we are
 Where pre-made code has been used and not directly attributed to in HTML / CSS it is below:
 
 Markdown table syntax taken and adapted from: https://www.makeuseof.com/tag/create-markdown-table/#:~:text=Markdown%20makes%20it%20simple%20to,even%20make%20tables%20with%20Markdown.
+
+Markdown image syntax taken and adapted from: https://marinegeo.github.io/2018-08-10-adding-images-markdown/
 
 ### Disclaimer
 
