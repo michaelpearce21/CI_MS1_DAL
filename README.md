@@ -1,6 +1,8 @@
 # 'Dice and Lattes' Board Game Cafe, Caerphilly
 ### An assessed project for the Code Institute
 
+![Cafe Logo](assets/images/dice-and-lattes-logo.png "Cafe Logo")
+
 Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
 
 Alongside the extensive and growing collection of **board games**, our **Game Experts** will assist with game learning and make recommendations appropriate to guests requirements (such as player number and skill). Furthermore, excellent customer service through teaching these games to customer will keep people wanting to come and game!
@@ -12,6 +14,7 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
     * User Stories
     * High Level Needs and Trade-offs
     * Colour and Typography Design
+    * Wireframes
 
 * Technologies Used
 * Deployment
@@ -98,17 +101,21 @@ Wireframes of the pages for mobile / small and laptop / large screens can be fou
 
 #### Large Screens / laptops:
 
-* [Home/Index](assets/images/wireframes/Laptop-Screen-Home.png)
-* [Menu](assets/images/wireframes/Laptop-Screen-Menu.png)
-* [Contact](assets/images/wireframes/Laptop-Screen-Contact.png)
+* [Home/Index](/assets/docs/wireframes/Laptop-Screen-Home.png)
+* [Menu](/assets/docs/wireframes/Laptop-Screen-Menu.png)
+* [Contact](/assets/docs/wireframes/Laptop-Screen-Contact.png)
 
 #### Small screens / mobiles:
 
-* [Home/Index](assets/images/wireframes/Mobile-Home.png)
-* [Menu](assets/images/wireframes/Mobile-Menu.png)
-* [Contact](assets/images/wireframes/Mobile-Contact.png)
+* [Home/Index](/assets/docs/wireframes/Mobile-Home.png)
+* [Menu](/assets/docs/wireframes/Mobile-Menu.png)
+* [Contact](/assets/docs/wireframes/Mobile-Contact.png)
 
+### Technologies Used
 
+Langauges:
+* HTML5
+* CSS3
 
 
 ### Acknowledgements:
