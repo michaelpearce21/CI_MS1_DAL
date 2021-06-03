@@ -94,7 +94,21 @@ From the requirements of the website it was decided the initial release should i
   * A menu page which should highlight the food and drinks on offer. 
   * A contact page which will highlight social media links as well as include a form for comments and questions. 
 
-Wireframes of the pages for mobile / small and laptop / large screens can be found [here](wireframes.html). 
+Wireframes of the pages for mobile / small and laptop / large screens can be found below:
+
+#### Large Screens / laptops:
+
+* [Home/Index](assets/images/wireframes/Laptop-Screen-Home.png)
+* [Menu](assets/images/wireframes/Laptop-Screen-Menu.png)
+* [Contact](assets/images/wireframes/Laptop-Screen-Contact.png)
+
+#### Small screens / mobiles:
+
+* [Home/Index](assets/images/wireframes/Mobile-Home.png)
+* [Menu](assets/images/wireframes/Mobile-Menu.png)
+* [Contact](assets/images/wireframes/Mobile-Contact.png)
+
+
 
 
 ### Acknowledgements:
