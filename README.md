@@ -32,19 +32,24 @@ The needs of the **business owners**, and **customers** have been considered in 
 
 ### User Stories:
 As a **business owner** I want a website so that I can expose my business more. In doing this our aims are that:
-* More people know about the business locally.
-* The concept is easily and clearly explained.
-* Customers can find the cafe and contact us, both directly and through our social media (Facebook, Twitter and Instagram). 
-* A focus on the menu as well as games.
-* The website is attractive and intuitive to potential customers. 
-* There is a way to book tables and sell games. 
+1. More people know about the business locally.
+2. The concept is easily and clearly explained.
+3. Customers can find the cafe and contact us, both directly and through our social media (Facebook, Twitter and Instagram). 
+4. A focus on the menu as well as games.
+5. The website is attractive and intuitive to potential customers. 
+6. There is a way to book tables and sell games. 
+7. A way to keep in touch with customers who are regulars as well as new users. 
 
 As a **customer** I want a website to understand what makes this cafe special. To do this I need:
-* Information on what is different about this cafe, easily digestible and clearly explained. 
-* A link to social media. 
-* Information about the menu and pricing. 
-* Information about how to find and contact the cafe. 
-* To be able to book tables direct from the website. 
+8. Information on what is different about this cafe, easily digestible and clearly explained. 
+9. A link to social media. 
+10. Information about the menu and pricing. 
+11. Information about how to find and contact the cafe. 
+12. To be able to book tables direct from the website. 
+
+As a **regular user** I want a wesite to keep up to date with events and recommendations. To do this I need:
+13. A newsletter which may include dates of events and special offers.
+14. A membership to encourage repeat returns. 
 
 ### High level Needs and Trade-offs:
 
