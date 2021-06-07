@@ -45,9 +45,10 @@
     </Header>
 
     <section> 
+        <div class="container-fluid container-contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 container-contact-text">
                     <h2>Get in touch!</h2>
                     <p>
                         Any questions about our service? 
@@ -64,8 +65,8 @@
                         Send us an email direct at: <a href="mailto:dummyemailaddress">contact@diceandlattes.com</a>
                     </p>
                 </div>
-                <div class="col-md-8">
-                    <form>                 
+                <div class="col-md-7 offset-md-1 container-form"> <!-- Using some default styling from Bootstrap 5, modified by CSS-->
+                    <form action="dummywebsite" method="get" name="contact-form">                 
                         <label for="name" class="form-label">Name:</label>
                         <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required autofocus>
                             <br>
@@ -75,17 +76,17 @@
                         <label for="comments" class="form-label">Comments and Queries:</label>
                         <textarea type="text" class="form-control" name="comments" id="comments" rows="5" placeholder="Enter your comments and queries. Thanks!" required></textarea>
                             <br>
-                        <input type="submit">
+                        <input type="submit" class="btn btn-success">
 
                     </form>
                 </div>
             </div>
-
-        </div>        
+        </div>    
+        </div>    
     </section>
 
     <footer> <!-- Icons from Font Awesome -->
-        <div class="container-fluid container-footer">
+        <div class="container-fluid container-footer" id="footer-contact">
             <div class="row">
                 <div class="col-lg-2 address">
                     <p>
