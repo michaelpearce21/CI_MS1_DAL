@@ -134,7 +134,7 @@ hr {
 /* Image: Photo by Pavel Danilyuk from Pexels */
 .container-contact {
     background-image: url(/assets/images/azul.jpeg);
-    background-repeat: no-repeat;
+    background-repeat: cover no-repeat;
 }
 
 .container-contact-text {
