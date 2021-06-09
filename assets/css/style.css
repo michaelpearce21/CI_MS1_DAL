@@ -167,3 +167,37 @@ hr {
 #footer-contact {
     margin-top: 0px;
 }
+
+/*--------------------------------------- Menu page styling */
+
+.container-menu-intro {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px; 
+    text-align: center;
+    background-color: #dc0073;
+}
+
+.container-menu-images {
+    margin-top: 20px;
+}
+
+.container-menu {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #008bf8;
+}
+
+.menu-text {
+    text-align: center;
+    line-height: 20px;
+}
+
+/*--------------------------------------- Menu page styling */
