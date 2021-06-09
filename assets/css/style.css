@@ -200,4 +200,31 @@ hr {
     line-height: 20px;
 }
 
-/*--------------------------------------- Menu page styling */
+/*--------------------------------------- Club page styling */
+
+.container-club-intro {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px; 
+    text-align: center;
+    background-color: #dc0073;
+}
+
+.container-game-recommendation {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #008bf8;
+}
+
+.carousel img {
+    max-height: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+} /* code from: https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655 */
