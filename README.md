@@ -3,6 +3,8 @@
 
 ![Cafe Logo](assets/images/dice-and-lattes-logo.png "Cafe Logo")
 
+https://michaelpearce21.github.io/CI_MS1_DAL/
+
 Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
 
 Alongside the extensive and growing collection of **board games**, our **Game Experts** will assist with game learning and make recommendations appropriate to guests requirements (such as player number and skill). Furthermore, excellent customer service through teaching these games to customer will keep people wanting to come and game!
