@@ -79,17 +79,11 @@
         </div>
     </section>
     <hr>
-    <div id="adobe-dc-view" style="width: 800px;"></div>
-<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-<script type="text/javascript">
-	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "67bcca7d2a5c4d39bb904ffa9f46f791", divId: "adobe-dc-view"});
-		adobeDCView.previewFile({
-			content:{location: {url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
-			metaData:{fileName: "Bodea Brochure.pdf"}
-		}, {embedMode: "IN_LINE"});
-	});
-</script>
+        
+    <div class="container-fluid">
+        <embed src="/assets/pdf/menu.pdf" type="application/pdf" class="menu-box">
+    </div>
+    
     <section>    
         <div class="containter container-menu">
             <div class="row">

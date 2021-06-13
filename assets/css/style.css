@@ -211,6 +211,11 @@ hr {
     background-color: #008bf8;
 }
 
+.menu-box {
+    width: 100%;
+    height: 500px;
+}
+
 .menu-text {
     text-align: center;
     line-height: 20px;
