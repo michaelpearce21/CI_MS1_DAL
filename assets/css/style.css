@@ -48,6 +48,10 @@ hr {
     font-size: large;
 }
 
+.navbar-text-position {
+    display: flex;
+}
+
 /*--------------------------------------- Footer element*/
 
 .container-footer {
