@@ -97,6 +97,12 @@ hr {
     position: relative;
     text-align: center;
     margin-top: 20px;
+    font-size: large;
+}
+
+.card-design {
+    border-radius: 50%;
+    background-color: #f5b700;
 }
 
 .container-hero {
