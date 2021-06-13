@@ -47,10 +47,10 @@
     <!-- Hero image: Photo by Christopher Paul High on Unsplash -->
     <!-- Code to improve visuals and also center the card taken from:
             https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap-->
+    <!-- Model base code from Bootstrap 5, with ammended content and styling-->
     <section> 
         <!-- Background 'hero image' and card on top - to include a button which will open a modal window -->
         <div class="container-fluid bg-hero container-hero d-flex align-items-center min-vh-100">
-            <!-- TODO: Add in card positioned center - call to action. Can also add a button to the navbar -->
             <div class="card" style="width: 18rem;">
                 <div class="card-body hero-card">
                   <h5 class="card-title">Dice and Lattes</h5>
@@ -70,12 +70,32 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <h2>Sign up for our latest offers and a discount!</h2>
-                      <hr>
-                      <p>
-                          Want to hear about our latest games, offers and special events? Just complete some details below, press send and they will all be sent to your inbox!
-                      </p>
+                        <h2>Sign up for our latest offers and a discount!</h2>
+                            <hr>
+                            <p>
+                                Want to hear about our latest games, offers and special events? Just complete some details below, press send and they will all be sent to your inbox!
+                            </p>
 
+                            <form action="https://formdump.codeinstitute.net/" method="POST" name="contact-form">                 
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required autofocus>
+                                    <br>
+                                <label for="email-address" class="form-label">Email Address:</label>
+                                <input type="email" class="form-control" name="email-address" id="email-address" placeholder="Enter your email address" required>
+                                    <br>
+                                <label for="important-aspect">What is the most important thing about us for you?</label>
+                                <select class="form-select" name="important-aspect" id="important-aspect" aria-label="What is the most important aspect of the cafe for you?">
+                                    <option selected>Open this select menu</option>
+                                    <option value="gaming">Gaming</option>
+                                    <option value="cafe">Cafe</option>
+                                    <option value="both">Both!</option>
+                                </select>
+                                    <br>
+                                <label for="comments" class="form-label">Do you have any questions or queries for us?</label>
+                                <textarea type="text" class="form-control" name="comments" id="comments" rows="5" placeholder="Enter your comments and queries. Thanks!" required></textarea>
+                                    <br>
+                                <input type="submit" class="btn btn-success">
+                            </form>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
