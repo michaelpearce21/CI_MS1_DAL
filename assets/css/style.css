@@ -220,6 +220,12 @@ hr {
     background-color: #dc0073;
 }
 
+.club-pictures {
+    border-radius: 50%;
+    height: 177.5px;
+    width: 177.5px;
+}
+
 .container-game-recommendation {
     margin-top: 10px;
     margin-left: 5px;
