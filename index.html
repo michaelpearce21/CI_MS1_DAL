@@ -45,8 +45,11 @@
     </header>
 
     <!-- Hero image: Photo by Christopher Paul High on Unsplash -->
+    <!-- Code to improve visuals and also center the card taken from:
+            https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap-->
     <section> 
-        <div class="container-fluid bg-hero container-hero">
+        <!-- Background 'hero image' and card on top - to include a button which will open a modal window -->
+        <div class="container-fluid bg-hero container-hero d-flex align-items-center min-vh-100">
             <!-- TODO: Add in card positioned center - call to action. Can also add a button to the navbar -->
             <div class="card" style="width: 18rem;">
                 <div class="card-body hero-card">
@@ -54,7 +57,7 @@
                   <h6 class="card-subtitle mb-2 text-muted">Caerphillys best, and most fun, cafe</h6>
                   <p class="card-text">Come sample excellent cafe atmosphere and a huge library of games</p>
                   <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  
                 </div>
               </div>
         </div>
