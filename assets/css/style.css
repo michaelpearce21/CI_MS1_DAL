@@ -27,7 +27,7 @@ hr {
 }
 
 .bg-hero {
-    background-image: url(/assets/images/hero-image.jpeg);
+    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/hero-image.jpeg);
     background-repeat: no-repeat;
     background-position: right top;
     width: 100%;
