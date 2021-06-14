@@ -149,8 +149,9 @@ hr {
 
 /* Image: Photo by Pavel Danilyuk from Pexels */
 .container-contact {
-    background-image: url(/assets/images/azul.jpeg);
-    background-repeat: cover no-repeat;
+    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/azul.jpeg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .container-contact-text {
