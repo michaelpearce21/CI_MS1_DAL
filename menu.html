@@ -79,9 +79,15 @@
         </div>
     </section>
     <hr>
-        
+    
+    <!-- Menu below - designed so that small screens see a static HTML menu, but that medium+ sizes see an
+    embedded PDF viewer. Decided it was a poor experience with the viewer at smaller screen sizes. -->
+    <!-- <embed> code taken in part from https://stackoverflow.com/questions/14690000/how-to-embed-a-pdf -->
     <div class="container-fluid container-pdf-menu d-none d-md-block">
-        <embed src="https://michaelpearce21.github.io/CI_MS1_DAL/assets/pdf/menu.pdf" type="application/pdf" class="menu-box">
+        <embed src="https://michaelpearce21.github.io/CI_MS1_DAL/assets/pdf/menu.pdf" 
+            type="application/pdf" 
+            class="menu-box" 
+            pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"/>
     </div>
     
     <section>    
