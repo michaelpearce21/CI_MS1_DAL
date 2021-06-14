@@ -149,7 +149,7 @@ hr {
 
 /* Image: Photo by Dave Photoz on Unsplash */  
 .container-contact {
-    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/ticket-to-ride.jpeg);
+    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/ticket-to-ride.jpeg) cover;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
@@ -249,6 +249,10 @@ hr {
     border-radius: 20px; 
     text-align: center;
     background-color: #dc0073;
+}
+
+.savings-card {
+    background-color: #f5b700;
 }
 
 .club-pictures {
