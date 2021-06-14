@@ -221,6 +221,10 @@ hr {
     line-height: 20px;
 }
 
+.download-link {
+    color: black;
+}
+
 /*--------------------------------------- Club page styling */
 
 .container-club-intro {
