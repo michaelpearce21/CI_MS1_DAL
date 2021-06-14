@@ -201,6 +201,11 @@ hr {
     margin-top: 20px;
 }
 
+.continer-pdf-menu {
+    width: 100%;
+    height: 700px;
+}
+
 .container-menu {
     margin-top: 10px;
     margin-left: 5px;
@@ -219,6 +224,7 @@ hr {
 .menu-text {
     text-align: center;
     line-height: 20px;
+    color: whitesmoke;
 }
 
 .download-link {
