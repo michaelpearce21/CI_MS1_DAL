@@ -227,6 +227,11 @@ hr {
     color: whitesmoke;
 }
 
+.download-comment {
+    margin-top: 20px;
+
+}
+
 .download-link {
     color: black;
 }
