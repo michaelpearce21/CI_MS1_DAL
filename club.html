@@ -46,6 +46,8 @@
 
     <section>
         <!-- Club intro - information about membership - in table form also. Picture to the right -->
+        <!-- Table template form Bootstrap 5-->
+        <!-- Togglable button for savings example from Bootstrap 5-->
         <div class="container-fluid container-club-intro">
             <div class="row">
                 <div class="col-md-8">
@@ -57,8 +59,51 @@
 
                         Furthermore, membership will give you exclusive discounts and access to special events and tournaments via our newsletter. Ready to sign up, click the button below:
                     </p>
-                    <button class="btn btn-success">Click Me!</button> <!-- TODO: Add model to this button for sign up-->
-                    
+                    <button button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Click Me!</button>
+                    <!-- Model, activating button above -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Speical offers!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <h2>Sign up for our latest offers and a discount!</h2>
+                                  <hr>
+                                  <p>
+                                      Want to hear about our latest games, offers and special events? Just complete some details below, press send and they will all be sent to your inbox!
+                                  </p>
+      
+                                  <form action="https://formdump.codeinstitute.net/" method="POST" name="contact-form">                 
+                                      <label for="name" class="form-label">Name:</label>
+                                      <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required autofocus>
+                                          <br>
+                                      <label for="email-address" class="form-label">Email Address:</label>
+                                      <input type="email" class="form-control" name="email-address" id="email-address" placeholder="Enter your email address" required>
+                                          <br>
+                                      <label for="important-aspect">What is the most important thing about us for you?</label>
+                                      <select class="form-select" name="important-aspect" id="important-aspect" aria-label="What is the most important aspect of the cafe for you?">
+                                          <option selected>Open this select menu</option>
+                                          <option value="gaming">Gaming</option>
+                                          <option value="cafe">Cafe</option>
+                                          <option value="both">Both!</option>
+                                      </select>
+                                          <br>
+                                      <label for="comments" class="form-label">Do you have any questions or queries for us?</label>
+                                      <textarea type="text" class="form-control" name="comments" id="comments" rows="5" placeholder="Enter your comments and queries. Thanks!" required></textarea>
+                                          <br>
+                                      <input type="submit" class="btn btn-success">
+                                  </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Collapsable example of savings of membership-->
                     <p>
                       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Example of savings
@@ -66,7 +111,7 @@
                     </p>
                     <div class="collapse" id="collapseExample">
                       <div class="card card-body">
-                        <table class="table"> <!-- Table template form Bootstrap 5-->
+                        <table class="table"> 
                           <thead>
                             <tr>
                               <th scope="col">Visits</th>
