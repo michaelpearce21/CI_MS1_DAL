@@ -197,8 +197,10 @@ hr {
     background-color: #dc0073;
 }
 
-.container-menu-images {
+.container-food-pictures img {
     margin-top: 20px;
+    border-radius: 50%;
+    border: 1px solid #008bf8;
 }
 
 .continer-pdf-menu {
@@ -229,7 +231,6 @@ hr {
 
 .download-comment {
     margin-top: 20px;
-
 }
 
 .download-link {
