@@ -305,5 +305,6 @@ hr {
 #text-404 {
     justify-content: center;
     font-size: large;
-    color: #f5b700;
+    color: whitesmoke;
+    margin-top: 20px;
 }
