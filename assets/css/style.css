@@ -133,13 +133,21 @@ hr {
 }
 
 .opening-times {
-    margin: 37%;
+    margin-left: 37%;
+    margin-top: 20px;
 }
 
 .map-text {
     border: 1px solid black;
     border-radius: 20px;
     background-color: #008bf8;
+    margin-top: 10px;
+}
+
+.times-text {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #f5b700;
     margin-top: 10px;
 }
 

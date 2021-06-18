@@ -46,7 +46,7 @@
                 <!-- Button linked to model code below-->
                 <div>  
                     <a href="#" class="card-link d-none d-md-block">
-                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up!</button></a>
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newsletterModal">Sign Up!</button></a>
                 </div>  
             </div>
         </nav>
@@ -65,12 +65,12 @@
                     <h6 class="card-subtitle mb-2 text-muted">Caerphillys best, and most fun, cafe</h6>
                     <p class="card-text">Come sample excellent cafe atmosphere and a huge library of games in the heart of Caerphilly!</p>
                             <a href="#" class="card-link">
-                                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Click me for offers!</button></a>
+                                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newsletterModal">Click me for offers!</button></a>
                 </div>
             </div>
         </div>
         <!-- Model, button above is the trigger, this is the same code pointed towards in the header button also-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -107,7 +107,6 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -151,7 +150,8 @@
                     <h3 class="map-text mx-auto">Ready to play? <br> Find us below!</h3>
                     <!-- Table base code from Bootstrap 5, edited for purpose -->
                     <hr> 
-                        <h3 class="d-none d-lg-block">We are open at these times, <br> but don't forget to see out newsletter for events!</h3>            
+                        <h3 class="times-text d-none d-lg-block">We are open at these times, <br> but don't forget to see our 
+                            <a href= "#" data-bs-toggle="modal" data-bs-target="#newsletterModal">newsletter</a> for events!</h3>         
                         <table class="table d-none d-lg-inline opening-times">
                             <thead>
                                 <tr>
@@ -197,7 +197,8 @@
     <hr>
     
     <footer> 
-        <!-- Footer to include address, social media and copyright info. Icons for social media from Font Awesome -->
+        <!-- Footer to include address, opening times, social media and copyright info. 
+            Icons for social media from Font Awesome -->
         <div class="container-fluid container-footer">
             <div class="row">
                 <div class="col-lg-2 address">
