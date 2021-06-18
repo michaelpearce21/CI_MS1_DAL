@@ -132,6 +132,10 @@ hr {
     max-height: 600px;
 }
 
+.opening-times {
+    margin-left: 35%;
+}
+
 .map-text {
     border: 1px solid black;
     border-radius: 20px;

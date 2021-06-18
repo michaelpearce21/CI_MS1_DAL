@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://michaelpearce21.github.io/assets/images/favicon-coffee.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://michaelpearce21.github.io/assets/images/favicon-coffee.ico" rel="icon" type="image/ico"/>
 
     <title>Dice and Lattes Cafe | Caerphilly</title>
 </head>
@@ -128,7 +128,7 @@
     </section>
     <hr>
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid justify-content-center">
             <div class="row">
                 <div class="col-md-8 container-howitworks">
                     <h2>How It Works</h2>
@@ -144,7 +144,30 @@
                         A 3 hour slot at a table costs £5 per person, but look <a href="#">here</a> for regular visitor discounts!
                     </p>
                     <h3 class="map-text mx-auto">Ready to play? <br> Find us below!</h3>
-                
+                    <!-- Table base code from Bootstrap 5, edited for purpose -->
+                    <hr>             
+                        <table class="table d-none d-lg-inline opening-times">
+                            <thead>
+                                <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Opening Times</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">Mon-Fri</th>
+                                <td>09:00 - 22:00</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Sat</th>
+                                <td>10:00 - 23:00</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Sun</th>
+                                <td>10:00 - 21:00</td>
+                                </tr>
+                            </tbody>
+                        </table>                
                 </div>
                 <div class="col-md-4"> <!-- image: Photo by Nika Benedictova on Unsplash-->
                     <img src="https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/dice.jpeg" class="img-fluid container-howitworks-picture mx-auto" alt="Various dice on table">
