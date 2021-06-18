@@ -149,7 +149,7 @@ hr {
 
 /* Image: Photo by Dave Photoz on Unsplash */  
 .container-contact {
-    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/ticket-to-ride.jpeg) cover;
+    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/ticket-to-ride.jpeg);
     background-repeat: no-repeat;
     min-height: 100vh;
 }
@@ -270,8 +270,9 @@ hr {
     background-color: #008bf8;
 }
 
+ /* code from: https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655 */
 .carousel img {
     max-height: 500px;
     max-width: 500px;
     margin: 0 auto;
-} /* code from: https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655 */
+}
