@@ -151,8 +151,7 @@
                     <h3 class="map-text mx-auto">Ready to play? <br> Find us below!</h3>
                     <!-- Table base code from Bootstrap 5, edited for purpose -->
                     <hr> 
-                        <h3 class="d-none d-lg-inline">We are open at these times, <br> but don't forget to see out newsletter for events!</h3>            
-                        <p>
+                        <h3 class="d-none d-lg-block">We are open at these times, <br> but don't forget to see out newsletter for events!</h3>            
                         <table class="table d-none d-lg-inline opening-times">
                             <thead>
                                 <tr>
@@ -174,8 +173,7 @@
                                 <td>10:00 - 21:00</td>
                                 </tr>
                             </tbody>
-                        </table>
-                        </p>                
+                        </table>               
                 </div>
                 <div class="col-md-4"> <!-- image: Photo by Nika Benedictova on Unsplash-->
                     <img src="https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/dice.jpeg" class="img-fluid container-howitworks-picture mx-auto" alt="Various dice on table">
@@ -199,13 +197,35 @@
     <hr>
     
     <footer> 
-        <!-- Icons for social media from Font Awesome -->
+        <!-- Footer to include address, social media and copyright info. Icons for social media from Font Awesome -->
         <div class="container-fluid container-footer">
             <div class="row">
                 <div class="col-lg-2 address">
                     <p>
                         58, Cardiff Road, Caerphilly, CF11 11F
                     </p>
+                    <table class="table address">
+                        <thead>
+                            <tr>
+                            <th scope="col">Day</th>
+                            <th scope="col">Opening Times</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">Mon-Fri</th>
+                            <td>09:00 - 22:00</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Sat</th>
+                            <td>10:00 - 23:00</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Sun</th>
+                            <td>10:00 - 21:00</td>
+                            </tr>
+                        </tbody>
+                    </table> 
                 </div>
                 <div class="col-lg-8 socials">
                     <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
