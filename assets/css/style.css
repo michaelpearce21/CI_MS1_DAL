@@ -34,8 +34,9 @@ hr {
     height: 100%;
 }
 
+/* Photo by GR Stocks on Unsplash */
 .background-404 {
-    background-image: url(/assets/images/chess-404.jpeg);
+    background-image: url(https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/chess-404.jpeg);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
