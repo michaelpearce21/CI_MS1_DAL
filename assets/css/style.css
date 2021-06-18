@@ -302,7 +302,7 @@ hr {
     min-height: 75vh; 
 }
 
-.container-404 h1 p {
+#text-404 {
     justify-content: center;
     font-size: large;
     color: #f5b700;
