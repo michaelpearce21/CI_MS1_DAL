@@ -99,9 +99,10 @@ In terms of fonts, readability was the key to chosen fonts, as well as being con
 
 ### Wireframes:
 
-From the requirements of the website it was decided the initial release should include 3 pages:
+From the requirements of the website it was decided the initial release should include 4 pages:
   * A home page which will include the headline informaiton about the cafe and the concept. Contact informaiton such as location and social media links should also be included. 
   * A menu page which should highlight the food and drinks on offer. 
+  * A club page, where membership benefits are highlighted and recommendations of games are. 
   * A contact page which will highlight social media links as well as include a form for comments and questions. 
 
 Wireframes of the pages for mobile / small and laptop / large screens can be found below:
@@ -110,7 +111,7 @@ Wireframes of the pages for mobile / small and laptop / large screens can be fou
 
 * [Home/Index](/docs/wireframes/Laptop-Screen-Home.png)
 * [Menu](/docs/wireframes/Laptop-Screen-Menu.png)
-* [Club](/docs/wireframes/laptop-screen-club.png)
+* [Club](/docs/wireframes/laptop-screen-Club.png)
 * [Contact](/docs/wireframes/Laptop-Screen-Contact.png)
 
 #### Small screens / mobiles:
@@ -122,18 +123,50 @@ Wireframes of the pages for mobile / small and laptop / large screens can be fou
 
 ### Technologies Used
 
-Langauges:
+Languages:
 * HTML5
 * CSS3
+
+Frameworks:
+* Bootstrap 5.0 - used through CDN link.
+
+Resources:
+
+* Online:
+  * fontawesome.com - Used through CDN link for icons.
+  * icons8.com and faviconer.com - For locating and resizing favicon. 
+  * freelogodesign.org - To create the cafe logo.
+  * GitHub.com - Version control system. 
+  * pages.github.com - For hosting final website.
+  * unsplash.com, pexels.com and boardgamegeek.com - For images used through site.
+  * webaim.org/resources/contrastchecker/ - Used to check contrast and solve a few validation issues. 
+  * coolors.co - Used to generate a color scheme.
+  * fonts.google.com - Used to find good fonts for UX. 
+
+* Local:
+  * VS Code - IDE used for creating website.
+  * Balsamiq - For wireframing.
+  * Chrome Developer Tools - Used throughout website creation for debugging. 
 
 
 ### Acknowledgements:
 
 Where pre-made code has been used and not directly attributed to in HTML / CSS it is below:
 
-Markdown table syntax taken and adapted from: https://www.makeuseof.com/tag/create-markdown-table/#:~:text=Markdown%20makes%20it%20simple%20to,even%20make%20tables%20with%20Markdown.
+* The Bootstrap 5 documentation was invaluable throughout not just as a source of foundation code but for solving some errors during the process. 
 
-Markdown image syntax taken and adapted from: https://marinegeo.github.io/2018-08-10-adding-images-markdown/
+* Markdown table syntax taken and adapted from: https://www.makeuseof.com/tag/create-markdown-table/#:~:text=Markdown%20makes%20it%20simple%20to,even%20make%20tables%20with%20Markdown.
+
+* Markdown image syntax taken and adapted from: https://marinegeo.github.io/2018-08-10-adding-images-markdown/
+
+* Help solving an accessibility problem during validation found at: https://a11y-101.com/development/icons-and-links. Used to update ARIA information to improve accessibility to social media icons.
+
+* Help embedded a PDF into the menu found at: https://stackoverflow.com/questions/14690000/how-to-embed-a-pdf.
+
+* Help towards creating a favicon found at: https://www.lcn.com/blog/beginners-guide-favicons/. Extra help recieved from Tutor also, who helpfully recognised my path was missing a level when debugging. 
+
+* Whilst code was not used from these forum posts, they were helpful in creating positioning solutions: https://stackoverflow.com/questions/38160951/how-do-i-horizontally-center-a-table-in-bootstrap and https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap.
+
 
 ### Disclaimer
 
