@@ -93,7 +93,7 @@ hr {
 .call-out-offer {
     background-color: #008bf8;
     text-align: center;
-    color: whitesmoke;
+    color: black;
     padding-top: 12px;
     height: 60px;
     font-weight: 500;
@@ -134,7 +134,7 @@ hr {
     background-color: #dc0073;
     border-radius: 20px;
     margin-top: 10px;
-    color: whitesmoke;
+    color: white;
 }
 
 .container-howitworks {
