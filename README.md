@@ -151,7 +151,7 @@ Resources:
 
 ### Acknowledgements:
 
-Where pre-made code has been used and not directly attributed to in HTML / CSS it is below:
+First are some inspirations and interesting resources which were useful in coming up with my own ideas and solutions:
 
 * The Bootstrap 5 documentation was invaluable throughout not just as a source of foundation code but for solving some errors during the process. 
 
@@ -171,13 +171,45 @@ Where pre-made code has been used and not directly attributed to in HTML / CSS i
 
 * I quickly realised my Git commit messages needed more, so read this as a beginners guide: https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/.
 
-* w3schools tutorials were also used through the site, particualrly when looking at attributes. Some tips were taken when working with iframes, blockquotes, textareas and CSS image styling, although no blocks of code were directly included.
+* w3schools tutorials were also used through the site, particualrly when looking at attributes. Some tips were taken when working with iframes, blockquotes, textareas, meta tags, and CSS image styling, although no blocks of code were directly included.
 
 * YouTube and Google Maps iframe base code from using the embedded link from the respective websites, ammeded with custom CSS. 
 
-* Mo Shami, tutor at the Code Institute was an invaluable source of direction and support in completing the project. He also gave some direct input with issues with paths in the project not displaying correctly on GitHub Pages, favicon (as above) and explaining how to set up folders correctly. 
+* Mo Shami, tutor at the Code Institute was an invaluable source of direction and support in completing the project. He also gave some direct input with issues with paths in the project not displaying correctly on GitHub Pages, favicon (as above) and explaining how to set up folders correctly. An excellent example of how to set out a project was also shared, which was created by [Tara Rhoseyn](https://github.com/TaraRhoseyn)
+
+* At this point the vast majority of my web design, coding and implementation knowledge comes from the great teaching resources at the Code Institute. Whilst direct code hasn't been used, I'm sure some good practices and inspiration would have come from this. 
 
 * Last, and by no means least, thanks to my wife, Leanne, for the many cups of tea and welcome distracitons at the times code wasn't flowing. 
+
+#### Direct code acknowledgement:
+
+* Assistance in centering elements vertically wihtin containers was taken from here, specifically from 'Update 2020' comment by Zim: https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap
+
+* Base code for embedding the PDF in the menu page came from this: https://stackoverflow.com/questions/14690000/how-to-embed-a-pdf. In particular the answer from Vuk Vasić. I'm particulary indebted as making the Adobe API work was not going well...
+
+#### Media acknoweldgements:
+
+As stated above, the images for the project have come from Pexels, Unsplash and BoardGameGeek (BGG). ALl images were free to use, and credited in the code. I have credited the authors below in order also:
+
+* Index.html
+  * Hero image - GR Stocks on Unsplash
+  * Dice image - Nika Benedictova on Unsplash
+  * Cafe image - Behzad Ghaffarian on Unsplash
+
+* Menu.html
+  * Burito image - Nishant Aneja from Pexels
+  * Salad image - Kei Scampa from Pexels
+  * Burger image - Engin Akyurt from Pexels
+
+* Club.html
+  * First cafe image - daan evers on Unsplash
+  * Second cafe image - Behzad Ghaffarian on Unsplash
+  * 7 Wonders - Matt Ridding on BGG
+  * Azul - François Haffner on BGG
+  * Viticulture - Antoine Fibula on BBG
+
+
+
 
 
 ### Disclaimer
