@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A new Board Game Cafe in the heart of Caerphilly">
-    
+    <!-- Further links below - Bootstrap CDN, Font Awesome CDN, link to style sheet, link to favicon.-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/favicon.png" rel="shortcut icon" type="image/png"/>
-
+    <!-- Consistant title accross pages -->
     <title>Dice and Lattes Cafe | Caerphilly</title>
 </head>
 
@@ -44,13 +44,24 @@
                         </li>
                     </ul>    
                 </div>
-                <!-- Button linked to model code below, if time, add this as a seperate container underneath the Navbar - will sort the issue with
-                the burger icon jumping. -->
-                <!-- <span>  
-                    <button class="btn btn-success card-link d-none d-md-inline" data-bs-toggle="modal" data-bs-target="#newsletterModal">Sign Up!</button>
-                </span>   -->
             </div>
         </nav>
+        <!-- Below designed as a call out bar with a sign up button. Fix to an issue with the hamburger button not spacing well when button used in the navbar.
+        Also, designed to just appear on md and larger screens - in terms of UX, user will see a sign up on small screens when scrolling, but not as
+        obvious on med+ screens.
+        Clicking on button will call the modal for sign-up. Default Bootstrap button styling used, with CSS for better positioning. -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-none d-md-inline call-out-offer">
+                    <p>
+                        Want to know some of our great offers? Sign up here! 
+                        <span>
+                            <button class= "btn btn-success sign-up-button" data-bs-toggle="modal" data-bs-target="#newsletterModal">Sign up!</button>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- Hero image: Photo by Christopher Paul High on Unsplash -->
@@ -85,6 +96,8 @@
                                 Want to hear about our latest games, offers and special events? Just complete some details below, press send and they will all be sent to your inbox!
                             </p>
                         <!-- Dummy server site, but returns correct information relating to ID's and names.-->
+                        <!-- Form to gather basic informaiton and preferences using text input, emial input, a for select element and comments box.
+                        All fields (except comments) are required and will not let user submit without input-->
                         <form action="https://formdump.codeinstitute.net/" method="POST" name="contact-form">                 
                             <label for="name" class="form-label">Name:</label>
                             <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required autofocus>
@@ -101,7 +114,7 @@
                             </select>
                                 <br>
                             <label for="comments" class="form-label">Do you have any questions or queries for us?</label>
-                            <textarea class="form-control" name="comments" id="comments" rows="5" placeholder="Enter your comments and queries. Thanks!" required></textarea>
+                            <textarea class="form-control" name="comments" id="comments" rows="5" placeholder="Enter your comments and queries. Thanks!"></textarea>
                                 <br>
                             <input type="submit" class="btn btn-success">
                         </form>
