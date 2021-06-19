@@ -145,7 +145,7 @@ This meets the user stories of:
 
 * The website is attractive and intuitive to potential customers (5).
 
-#### Footer:
+#### **Footer**:
 ![Footer](docs/images/footer.png "Footer Image")
 
 Common to all pages. On mobile view the elements stack on top of eachother (left to right). Keeping this consistant alongisde the header gives a familiar feel ot all pages, and continues the bold styling. It also includes some key information on every page, inlcuding address, opening times and the social media links for the cafe. 
@@ -157,7 +157,21 @@ This meets the user stories of:
 * The website is attractive and intuitive to potential customers (5).
 * Information about how to find and contact the cafe (11).
 
-#### Hero image (index.html):
+#### **Modal**:
+
+![Modal](docs/images/modal.png "Model image")
+
+Seen twice in index.html through sign-up buttons, and again in the club.html button this is encouraged throughout as a way of keeping a dialouge between the user and the business. The use of a from to do so is familiar and it also prevents wrong information being entered by requiring the fields that are needed to keep in contact.
+
+This meets the user stores of:
+
+* A way to keep in touch with customers who are regulars as well as new users (7).
+* A newsletter which may include dates of events and special offers (13).
+* A membership to encourage repeat returns 
+ (14).
+
+
+#### **Hero image (index.html)**:
 
 ![Hero Image](docs/images/hero-image.png "Hero Image")
 
@@ -170,7 +184,7 @@ This meets the user stories of:
 * A newsletter which may include dates of events and special offers (13).
 * A membership to encourage repeat returns (14).
 
-### About Us / How it Works (index.html):
+### **About Us / How it Works (index.html)**:
 
 ![About us](docs/images/about-us.png "About us image")
 
@@ -183,7 +197,7 @@ This meets the user stories of:
 * A newsletter which may include dates of events and special offers (13).
 * A membership to encourage repeat returns (14).
 
-#### Map:
+#### **Map (index.html)**:
 ![Map](docs/images/map.png "Map image")
 
 Responsive across all sizes of screen, taking up 100% of the width of a Bootstrap container. Map gives an easy way of finding the cafe which is also visually appealing to use and quite familiar with a lot of potential users. 
@@ -194,6 +208,31 @@ This meets the user stories of:
 * Customers can find the cafe and contact us, both directly and through our social media (Facebook, Twitter and Instagram) (3). 
 * The website is attractive and intuitive to potential customers (5).
 * Information about how to find and contact the cafe (10).
+
+#### **Food introduction (menu.html)**:
+
+![Food Intro](docs/images/food_drink.png "Food and drink introduction")
+
+Designed to introduce the fact food and drink are served through enticing images of some options. Mobile view has images stacked vertically. Also makes a point of being able to eat while gaming, or not giving the user a choice. 
+
+This meets the user stories of:
+
+* A focus on the menu as well as games (4).
+* The website is attractive and intuitive to potential customers (5).
+* Information about the menu and pricing (10).
+
+#### **Menu (menu.html)**:
+
+![Menu](docs/images/menu.png "Menu")
+
+Embedded as a PDF, which allows for easy changing of the menu in the future, as well as an intuituve and attractive user experience. The user will have access to a food and drink menu. In mobile form this is changed to a static menu. This decision was made as the UI became cluttered with the embedded PDF at small screen sizes. On all sizes the option for a seperate download type link is available also. 
+
+This meets the user stories of:
+
+* A focus on the menu as well as games (4).
+* The website is attractive and intuitive to potential customers (5).
+* Information about the menu and pricing (10).
+
 
 ### Technologies Used
 
