@@ -288,7 +288,7 @@ hr {
     border: 1px solid black;
     border-radius: 20px; 
     text-align: center;
-    background-color: #dc0073;
+    background-color: #89fc00;
 }
 
 .savings-card {
@@ -315,6 +315,7 @@ hr {
     border: 1px solid black;
     border-radius: 20px;
     background-color: #008bf8;
+    color: whitesmoke;
 }
 
  /* code from: https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655 */
