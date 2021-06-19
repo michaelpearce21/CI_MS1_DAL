@@ -3,6 +3,8 @@
 
 ![Cafe Logo](assets/images/dice-and-lattes-logo.png "Cafe Logo")
 
+![Mock-ups](docs/images/mock-up.png "Mock-ups")
+
 [Live version of website](https://michaelpearce21.github.io/CI_MS1_DAL/)
 
 Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
@@ -12,11 +14,12 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
 ## Contents
 
 * User Experience and Design
-    * High Level Idea
-    * User Stories
-    * High Level Needs and Trade-offs
-    * Colour and Typography Design
-    * Wireframes
+  * High Level Idea
+  * User Stories
+  * High Level Needs and Trade-offs
+  * Colour and Typography Design
+  * Wireframes
+* Features and Testing User Stories
 
 * Technologies Used
 * Deployment
@@ -124,6 +127,41 @@ Wireframes of the pages for mobile / small and laptop / large screens can be fou
 * [Menu](/docs/wireframes/Mobile-Menu.png)
 * [Club](docs/wireframes/Mobile-Club.png)
 * [Contact](/docs/wireframes/Mobile-Contact.png)
+
+### Features and testing user stories:
+
+In this section the various parts of the website will be broken down into features and assessed how they stack up against the user storeis. Any extra features that would be good for the future, or upgrades to the current site will then be suggested. 
+
+Screenshots are of the laptop and large screen version, but important changes to mobile are mentioned.
+
+#### Navigation Bar:
+
+![Navbar](docs/images/navbar.png "Navigation Bar")
+
+Common to all pages. On mobile view the 'hamburger icon' is used as common visual shorthand to a collapsable list of pages to navigate too.
+
+Whilst simple, it is designed to be easy to see the purpose of, and meets an overall goal of having bright, bold colours prominent on the page. 
+
+This meets the user stories of:
+
+5.The website is attractive and intuitive to potential customers.\
+
+#### Hero image:
+
+![Hero Image](docs/images/hero-image.png "Hero Image")
+
+The image is intended to be eye-catching and entice the user to learn more about the cafe. It focusses on the game aspect of the cafe, as this is the unique part of the proposition. This also includes a call out with a link to a modal form for sign-up, which can also be accessed through the 'Click me for offers' button. In mobile view, the call-out is removed as the information is centered. 
+
+This meets the user stories of:
+
+2.The concept is easily and clearly explained.\
+5.The website is attractive and intuitive to potential customers.\
+13.A newsletter which may include dates of events and special offers.\
+14.A membership to encourage repeat returns.\
+
+
+
+
 
 ### Technologies Used
 
