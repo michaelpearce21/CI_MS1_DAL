@@ -128,7 +128,7 @@ Languages:
 * CSS3
 
 Frameworks:
-* Bootstrap 5.0 - used through CDN link.
+* Bootstrap 5.0 - used through CDN link. In multiple parts of project and signposted in code.
 
 Resources:
 
@@ -165,7 +165,19 @@ Where pre-made code has been used and not directly attributed to in HTML / CSS i
 
 * Help towards creating a favicon found at: https://www.lcn.com/blog/beginners-guide-favicons/. Extra help recieved from Tutor also, who helpfully recognised my path was missing a level when debugging. 
 
-* Whilst code was not used from these forum posts, they were helpful in creating positioning solutions: https://stackoverflow.com/questions/38160951/how-do-i-horizontally-center-a-table-in-bootstrap and https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap.
+* Whilst direct code was not used from this forum post, it was helpful in creating positioning solutions: https://stackoverflow.com/questions/38160951/how-do-i-horizontally-center-a-table-in-bootstrap.
+
+* Information linked to creating a 404 page used from: https://medium.com/designer-recipes/how-to-make-a-custom-404-error-page-for-your-website-1af37a8b20d1. An interesting read on the topic was also at: https://www.lcn.com/blog/beginners-guide-custom-404-pages/. 
+
+* I quickly realised my Git commit messages needed more, so read this as a beginners guide: https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/.
+
+* w3schools tutorials were also used through the site, particualrly when looking at attributes. Some tips were taken when working with iframes, blockquotes, textareas and CSS image styling, although no blocks of code were directly included.
+
+* YouTube and Google Maps iframe base code from using the embedded link from the respective websites, ammeded with custom CSS. 
+
+* Mo Shami, tutor at the Code Institute was an invaluable source of direction and support in completing the project. He also gave some direct input with issues with paths in the project not displaying correctly on GitHub Pages, favicon (as above) and explaining how to set up folders correctly. 
+
+* Last, and by no means least, thanks to my wife, Leanne, for the many cups of tea and welcome distracitons at the times code wasn't flowing. 
 
 
 ### Disclaimer
