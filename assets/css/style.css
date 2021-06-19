@@ -164,6 +164,11 @@ hr {
     margin-top: 10px;
 }
 
+.maps-frame {
+    height: 350px;
+    width: 100%;
+}
+
 /*--------------------------------------- Contact page styling */
 
 /* Image: Photo by Dave Photoz on Unsplash */  

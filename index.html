@@ -17,6 +17,7 @@
 
 <body>
     <!-- Base code for navbar from Bootstrap 5: https://getbootstrap.com/docs/5.0/components/navbar/ Ammended for needs and given extra CSS styling-->
+    <!-- Nav bar designed to be responsive so will become a collapsable icon on medium screens and less. Logo for the cafe will continue to be displayed.-->
     <!-- Home page header to also include a 'sign up' button which will activate model-->
     <header> 
         <nav class="navbar navbar-expand-md navbar-light bg-navbar">
@@ -43,10 +44,11 @@
                         </li>
                     </ul>    
                 </div>
-                <!-- Button linked to model code below-->
-                <div>  
-                    <button class="btn btn-success card-link d-none d-md-block" data-bs-toggle="modal" data-bs-target="#newsletterModal">Sign Up!</button>
-                </div>  
+                <!-- Button linked to model code below, if time, add this as a seperate container underneath the Navbar - will sort the issue with
+                the burger icon jumping. -->
+                <!-- <span>  
+                    <button class="btn btn-success card-link d-none d-md-inline" data-bs-toggle="modal" data-bs-target="#newsletterModal">Sign Up!</button>
+                </span>   -->
             </div>
         </nav>
     </header>
@@ -68,6 +70,7 @@
             </div>
         </div>
         <!-- Model, button above is the trigger, this is the same code pointed towards in the header button also-->
+        <!-- Base model code and triggers comes form Bootstrap 5, form code added in from Bootstrap 5 too, but heavily modified for purpose-->
         <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -81,7 +84,7 @@
                             <p>
                                 Want to hear about our latest games, offers and special events? Just complete some details below, press send and they will all be sent to your inbox!
                             </p>
-
+                        <!-- Dummy server site, but returns correct information relating to ID's and names.-->
                         <form action="https://formdump.codeinstitute.net/" method="POST" name="contact-form">                 
                             <label for="name" class="form-label">Name:</label>
                             <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required autofocus>
@@ -147,9 +150,13 @@
                     </p>
                     <h3 class="map-text mx-auto">Ready to play? <br> Find us below!</h3>
                     <!-- Table base code from Bootstrap 5, edited for purpose -->
+                    <!-- Style choice to not have the opening times display on small screens, but only on large. 
+                    This is due to the look of the site - there was a large part of the green container on large screens empty, or 
+                    the picture would not look right resizing, so this became the comprimise for best UX. -->
                     <hr> 
                         <h3 class="times-text d-none d-lg-block">We are open at these times, <br> but don't forget to see our 
                             <a href= "#" data-bs-toggle="modal" data-bs-target="#newsletterModal">newsletter</a> for events!</h3>         
+                        <!-- Modified base table code form Bootstrap 5-->
                         <table class="table d-none d-lg-inline opening-times">
                             <thead>
                                 <tr>
@@ -173,14 +180,16 @@
                             </tbody>
                         </table>               
                 </div>
-                <div class="col-md-4"> <!-- image: Photo by Nika Benedictova on Unsplash-->
+                <!-- Two images will display on medium size screens as this better balances the page with the picture scaling.-->
+                <!-- images: Photo by Nika Benedictova on Unsplash-->
+                <div class="col-md-4"> 
                     <img src="https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/dice.jpeg" class="img-fluid container-howitworks-picture mx-auto" alt="Various dice on table">
                     <img src="https://michaelpearce21.github.io/CI_MS1_DAL/assets/images/cafe-2.jpeg" class="img-fluid container-howitworks-picture mx-auto d-none d-md-block d-lg-none" alt="Various dice on table">
                 </div>
             </div>
         </div>
         <hr>
-        <!-- Interractive map of the cafe's location. Added embedded code from share function within Google Maps website -->
+        <!-- Interractive map of the cafe's location. Added embedded code from share function within Google Maps website, which was then modified using CSS. -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ">
