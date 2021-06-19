@@ -108,15 +108,17 @@ Wireframes of the pages for mobile / small and laptop / large screens can be fou
 
 #### Large Screens / laptops:
 
-* [Home/Index](/assets/docs/wireframes/Laptop-Screen-Home.png)
-* [Menu](/assets/docs/wireframes/Laptop-Screen-Menu.png)
-* [Contact](/assets/docs/wireframes/Laptop-Screen-Contact.png)
+* [Home/Index](/docs/wireframes/Laptop-Screen-Home.png)
+* [Menu](/docs/wireframes/Laptop-Screen-Menu.png)
+* [Club](/docs/wireframes/laptop-screen-club.png)
+* [Contact](/docs/wireframes/Laptop-Screen-Contact.png)
 
 #### Small screens / mobiles:
 
-* [Home/Index](/assets/docs/wireframes/Mobile-Home.png)
-* [Menu](/assets/docs/wireframes/Mobile-Menu.png)
-* [Contact](/assets/docs/wireframes/Mobile-Contact.png)
+* [Home/Index](/docs/wireframes/Mobile-Home.png)
+* [Menu](/docs/wireframes/Mobile-Menu.png)
+* [Club](docs/wireframes/Mobile-Club.png)
+* [Contact](/docs/wireframes/Mobile-Contact.png)
 
 ### Technologies Used
 
