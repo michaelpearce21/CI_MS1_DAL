@@ -198,7 +198,7 @@ hr {
     border-radius: 20px;
     background-color: #dc0073;
     text-align: center;
-    color: whitesmoke;
+    color: white;
 }
 
 .container-contact-text i {
@@ -209,7 +209,7 @@ hr {
 }
 
 .container-contact-text a {
-    color: #f5b700;
+    color: white;
 }
 
 .container-form {
