@@ -158,15 +158,14 @@ hr {
     margin-top: 10px;
 }
 
-.maps-container {
+.maps-frame {
+    height: 100%;
+    width: 100%;
     border:1px solid black;
     border-radius: 20px;
     margin-top: 10px;
-}
-
-.maps-frame {
     height: 350px;
-    width: 100%;
+    margin: auto;
 }
 
 /*--------------------------------------- Contact page styling */
