@@ -189,17 +189,17 @@ First are some inspirations and interesting resources which were useful in comin
 
 #### Media acknoweldgements:
 
-As stated above, the images for the project have come from Pexels, Unsplash and BoardGameGeek (BGG). ALl images were free to use, and credited in the code. I have credited the authors below in order also:
+As stated above, the images for the project have come from Pexels, Unsplash and BoardGameGeek (BGG). All images were free to use, and credited in the code. I have credited the authors below in order also:
 
 * Index.html
-  * Hero image - GR Stocks on Unsplash
+  * Hero image - Christopher Paul High on Unsplash
   * Dice image - Nika Benedictova on Unsplash
   * Cafe image - Behzad Ghaffarian on Unsplash
 
 * Menu.html
-  * Burito image - Nishant Aneja from Pexels
-  * Salad image - Kei Scampa from Pexels
-  * Burger image - Engin Akyurt from Pexels
+  * Burito image - Nishant Aneja on Pexels
+  * Salad image - Kei Scampa on Pexels
+  * Burger image - Engin Akyurt on Pexels
 
 * Club.html
   * First cafe image - daan evers on Unsplash
@@ -207,6 +207,12 @@ As stated above, the images for the project have come from Pexels, Unsplash and 
   * 7 Wonders - Matt Ridding on BGG
   * Azul - François Haffner on BGG
   * Viticulture - Antoine Fibula on BBG
+
+* Contact.html
+  * Background image - Dave Photoz on Unsplash
+
+* 404.html
+  * Background image - GR Stocks on Unsplash
 
 
 
