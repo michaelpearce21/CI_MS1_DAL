@@ -98,6 +98,7 @@ hr {
     color: whitesmoke;
     padding-top: 12px;
     height: 60px;
+    font-weight: 500;
 }
 
 .sign-up-button {
@@ -135,6 +136,7 @@ hr {
     background-color: #dc0073;
     border-radius: 20px;
     margin-top: 10px;
+    color: whitesmoke;
 }
 
 .container-howitworks {
