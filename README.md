@@ -135,7 +135,6 @@ In this section the various parts of the website will be broken down into featur
 Screenshots are of the laptop and large screen version, but important changes to mobile are mentioned.
 
 #### Navigation Bar:
-
 ![Navbar](docs/images/navbar.png "Navigation Bar")
 
 Common to all pages. On mobile view the 'hamburger icon' is used as common visual shorthand to a collapsable list of pages to navigate too.
@@ -144,9 +143,21 @@ Whilst simple, it is designed to be easy to see the purpose of, and meets an ove
 
 This meets the user stories of:
 
-5.The website is attractive and intuitive to potential customers.\
+* The website is attractive and intuitive to potential customers (5).
 
-#### Hero image:
+#### Footer:
+![Footer](docs/images/footer.png "Footer Image")
+
+Common to all pages. On mobile view the elements stack on top of eachother (left to right). Keeping this consistant alongisde the header gives a familiar feel ot all pages, and continues the bold styling. It also includes some key information on every page, inlcuding address, opening times and the social media links for the cafe. 
+
+This meets the user stories of:
+
+* More people know about the business locally (1).
+* Customers can find the cafe and contact us, both directly and through our social media (Facebook, Twitter and Instagram) (3)
+* The website is attractive and intuitive to potential customers (5).
+* Information about how to find and contact the cafe (11).
+
+#### Hero image (index.html):
 
 ![Hero Image](docs/images/hero-image.png "Hero Image")
 
@@ -154,14 +165,35 @@ The image is intended to be eye-catching and entice the user to learn more about
 
 This meets the user stories of:
 
-2.The concept is easily and clearly explained.\
-5.The website is attractive and intuitive to potential customers.\
-13.A newsletter which may include dates of events and special offers.\
-14.A membership to encourage repeat returns.\
+* The concept is easily and clearly explained (2).
+* The website is attractive and intuitive to potential customers (5).
+* A newsletter which may include dates of events and special offers (13).
+* A membership to encourage repeat returns (14).
 
+### About Us / How it Works (index.html):
 
+![About us](docs/images/about-us.png "About us image")
 
+Designed to succiently give more specifics about what to expect, highlighting the differences from a usual cafe experience. It also contains links to the newsletter modal, and to the club page. The opening times don't display on mobile, but they are in the footer. Picture gives shorthand for gaming to again reinforce the difference in this cafe. At tablet views another image of the cafe also displays, as this gave better balance of the elements. Fully responsive through sizes.
 
+This meets the user stories of:
+
+* The concept is easily and clearly explained (2).
+* Information on what is different about this cafe, easily digestible and clearly explained (8).
+* A newsletter which may include dates of events and special offers (13).
+* A membership to encourage repeat returns (14).
+
+#### Map:
+![Map](docs/images/map.png "Map image")
+
+Responsive across all sizes of screen, taking up 100% of the width of a Bootstrap container. Map gives an easy way of finding the cafe which is also visually appealing to use and quite familiar with a lot of potential users. 
+
+This meets the user stories of:
+
+* More people know about the business locally (1).
+* Customers can find the cafe and contact us, both directly and through our social media (Facebook, Twitter and Instagram) (3). 
+* The website is attractive and intuitive to potential customers (5).
+* Information about how to find and contact the cafe (10).
 
 ### Technologies Used
 
