@@ -201,13 +201,18 @@ hr {
     border-radius: 20px;
     background-color: #dc0073;
     text-align: center;
+    color: whitesmoke;
 }
 
 .container-contact-text i {
     font-size: xx-large;
     letter-spacing: 2rem;
-    color: black; 
+    color: #f5b700; 
     text-align: center;
+}
+
+.container-contact-text a {
+    color: #f5b700;
 }
 
 .container-form {
