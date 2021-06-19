@@ -3,7 +3,7 @@
 
 ![Cafe Logo](assets/images/dice-and-lattes-logo.png "Cafe Logo")
 
-https://michaelpearce21.github.io/CI_MS1_DAL/
+[Live version of website](https://michaelpearce21.github.io/CI_MS1_DAL/)
 
 Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
 
@@ -91,11 +91,11 @@ From the requirements it is clear to see an attractive website design, appealing
 
 Board games come with their own shorthand mental shortcuts for colour and we are all familiar with the bold primary colors of red, blue and yellow being used for pieces. There is a fear of uing too bold and bright colour being garish and harsh, so palettes were experimented with to give a general direction with colours for the project. Using the [coolers](https://coolors.co/04e762-f5b700-dc0073-008bf8-89fc00) website such a pallete was found, although this is an area which may be experimented on more as the project develops, usability and readability being important. 
 
-![Proposed Project colour pallete](assets/docs/images/MS1-colours.png "Proposed Project colour pallette")
+![Proposed Project colour pallete](docs/images/MS1-colours.png "Proposed Project colour pallette")
 
 In terms of fonts, readability was the key to chosen fonts, as well as being conscious of needing to make a positive impression in potentially a short space of time. For these reasons, two popular fonts have been chosen 'Roboto' for header elements and 'Montserrat' for the main text elements.
 
-![Proposed fonts](assets/docs/images/MS1-fonts.png "Proposed fonts")
+![Proposed fonts](docs/images/MS1-fonts.png "Proposed fonts")
 
 ### Wireframes:
 
