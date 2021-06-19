@@ -86,26 +86,52 @@
         </div>    
     </section>
 
-    <footer> <!-- Icons from Font Awesome -->
-        <div class="container-fluid container-footer" id="footer-contact">
+    <footer> 
+        <!-- Footer to include address, opening times, social media and copyright info. 
+            Icons for social media from Font Awesome
+            Basic table code form Bootstrap 5, ammened for purpose -->
+        <div class="container-fluid container-footer">
             <div class="row">
                 <div class="col-lg-2 address">
                     <p>
                         58, Cardiff Road, Caerphilly, CF11 11F
                     </p>
+                    <table class="table address">
+                        <thead>
+                            <tr>
+                            <th scope="col">Day</th>
+                            <th scope="col">Opening Times</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">Mon-Fri</th>
+                            <td>09:00 - 22:00</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Sat</th>
+                            <td>10:00 - 23:00</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Sun</th>
+                            <td>10:00 - 21:00</td>
+                            </tr>
+                        </tbody>
+                    </table> 
                 </div>
+                <!-- Social links - added screen reader prompts for accessibilty. Also for UX made them open in new tab, noopener used for extra site security too. -->
                 <div class="col-lg-8 socials">
-                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                    
-                    
+                    <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i>
+                        <span class="visually-hidden">Facebook link</span></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>
+                        <span class="visually-hidden">Twitter link</span></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i>
+                        <span class="visually-hidden">Instagram link</span></a>  
                 </div>
                 <div class="col-lg-2 copyright">
                     <p>
                         All rights reserved,<br> Dice and Lattes, Caerphilly, 2021
                     </p>
-
                 </div>
             </div>
         </div>
