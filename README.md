@@ -331,7 +331,35 @@ Resources:
 * Local:
   * VS Code - IDE used for creating website.
   * Balsamiq - For wireframing.
-  * Chrome Developer Tools - Used throughout website creation for debugging. 
+  * Chrome Developer Tools - Used throughout website creation for debugging.
+
+### Deployment:
+
+This repository is located on Github, and has been deployed using Github Pages. 
+
+To make a clone of the repo for your local machine, do the following:
+
+1. Log into your GitHub account. You can then find this repository [here](https://github.com/michaelpearce21/CI_MS1_DAL)
+2. Click on the 'Code' button, which will be just above the file list on the right. 
+3. Copy the url starting with 'https'. There is a button next to this which will copy it as well. 
+4. In your IDE make sure you are in the working directory you want then type 'git clone' and paste your copied url afterwards. Press enter. 
+5. You should have a clone copy of the repository!
+
+To fork a new copy of the repo (preserving the original copy):
+
+1. Log in to your GitHub and find the [repo](https://github.com/michaelpearce21/CI_MS1_DAL)
+2. Click 'fork' - it's at the top right of the page. 
+3. You will have a copy of the repo in your own account!
+
+To Deploy the webiste using GitHub Pages, do the following:
+
+1. Log in to GitHub and find the [repo](https://github.com/michaelpearce21/CI_MS1_DAL)
+2. Click on 'Settings' its the rightmost tab just above the file list and buttons. 
+3. Find the option on the left navigation bar for 'Pages' and click it. 
+4. Click 'Source'
+5. Select the 'Master Branch' - it will be an option in the dropdown menu that says 'None'
+6. Just wait for it to refresh, and
+7. On the 'Pages' tab you'll see a link for your site!
 
 ### Testing:
 
@@ -427,6 +455,11 @@ Fix: Before validation, inline styling was used, as inlcuded in the embedded cod
 Bug: Issues with the live version of page and images.\
 Fix: Discussed issue with tutor, advice was to include full path with repo included, which seems to have solved the issue. It was selective before however, so unsure if it was a bug with the coding or Github / Github pages.
 
+Bug: Issue with small gap between pages with background images and the footer.\
+fix: Created an id to fix the margin gap found looking on Developer Tools. Used an id to prevent any classes overiding this. 
+
+Bug: Althogh images were responsive left a lot of white space on certain screen sizes on index and club pages. 
+Fix: Used Bootstrap classes to add pictures to fill spaces at certain sizes to better balance pages, using the d-none d-lg-block classes for example. 
 
 
 
