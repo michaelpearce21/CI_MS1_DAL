@@ -461,12 +461,6 @@ fix: Created an id to fix the margin gap found looking on Developer Tools. Used 
 Bug: Although images were responsive left a lot of white space on certain screen sizes on index and club pages. 
 Fix: Used Bootstrap classes to add pictures to fill spaces at certain sizes to better balance pages, using the d-none d-lg-block classes for example. 
 
-
-
-
-
-
-
 ### Acknowledgements:
 
 First are some inspirations and interesting resources which were useful in coming up with my own ideas and solutions:
@@ -509,7 +503,6 @@ First are some inspirations and interesting resources which were useful in comin
 
 * Code to help correctly size Bootstrap 5 carousel using CSS found at https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655. 
 
-
 #### Media acknowledgements:
 
 As stated above, the images for the project have come from Pexels, Unsplash and BoardGameGeek (BGG). All images were free to use, and credited in the code. I have credited the authors below in order also:
@@ -536,10 +529,6 @@ As stated above, the images for the project have come from Pexels, Unsplash and 
 
 * 404.html
   * Background image - GR Stocks on Unsplash
-
-
-
-
 
 ### Disclaimer
 
