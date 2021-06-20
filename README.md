@@ -20,8 +20,11 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
   * Colour and Typography Design
   * Wireframes
 * Features and Testing User Stories
-
 * Technologies Used
+* Testing
+  * General testing of features and navigation
+  * Validation testing
+  * Accesibility testing
 * Deployment
 * Bugs and Issues
 * Acknowledgement
@@ -291,6 +294,17 @@ This meets the user story of:
 
 * The website is attractive and intuitive to potential customers (5).
 
+### Features summary
+
+The features in the website cover the vast majority of the user stories identified in the design stage of the project. The main story not covered is around the direct booking of tables, but this was elminated from the first release of the site early on in design for a later release. 
+
+There are several recommendations of where the site could expand to in the future however:
+* A booking system a user can use directly.
+* An expanded membership area, through a login with priority booking and discounts.
+* An expanded recommendation area, perhaps with personalised recommendations for members. 
+* A shop for games. 
+* A calender for tournaments or events. 
+
 ### Technologies Used
 
 Languages:
@@ -317,6 +331,67 @@ Resources:
   * VS Code - IDE used for creating website.
   * Balsamiq - For wireframing.
   * Chrome Developer Tools - Used throughout website creation for debugging. 
+
+### Testing:
+
+#### General Testing of features and navigations:
+
+* All navigations links have been tested across all pages, and link correctly to the right place. The logo in every page also links back to 'Home'
+
+* The same is true of the footer, where the social media links all work across every page. 
+
+index.html:
+* Both sign up buttons open the modal as expected, the same is true with the 'newsletter' hyperlink on the page.
+* The modal post's correctly to a dummy address.
+* The link to the club.html page in the How it Works' section works as expected. 
+* The embedded Google Maps code displays correctly and the frame can be controlled as the user would expect. 
+
+menu.html
+* Embedded PDF opens correctly on live website (there are some issues when loading page in Developer Tools) and can be manipulated as expected by the end user. 
+* The PDF download link works as expected, opening the menu in a new tab. 
+
+club.html
+* 'Click me!' button opens modal as expected. 
+* 'Example of savings' button reveals a drop down with a table as expected. 
+* YouTube video works as expected with controls. It does become short as some smaller sizes, but as it has a link to the video this is thought acceptable. 
+* Carousel displays images as expected - a recommendation for the future would be to resize images to be common as a small issue with it resizing. 
+
+contact.html
+* Form submits to a dummy server message, as expected. 
+* Form also requires input before submitting as expected. 
+
+The site has been fully tested on the following:
+* Google Chrome Version 91.0.4472.77 (Official Build) (arm64): No issues. 
+* Safari (Version 14.1.1 (16611.2.7.1.4)): No issues
+
+The machine used to test these is an Apple MacBook Air M1, 2020. Google Chrome Developer Tools used to test sites at different mobile sizes throughout development. 
+
+#### Validation Testing:
+
+All main pages have been tested using the [W3C Markup Validation Service website](https://validator.w3.org/).
+
+No errors returned on any page, with one wanring on club.html. This warning related to not using a h1 heading. Given the layout and content, it is a design deicison not to use one. Screenshots of the validation are below:
+
+* [Home / Index](docs/validation/home-page-validation.png)
+* [Menu](docs/validation/menu-validation.png)
+* [Club](docs/validation/club-validation.png)
+* [Contact](docs/validation/contact-validation.png)
+
+All main pages have been tested for accessibility using the [web accessibility evaluation tool (WAVE)](https://wave.webaim.org/).
+
+No errors have been returned for any page. All pages do have 3 contrast errors, which relate to non-visible screenreader text attached to social media icons (see home screenshot for the code pointed too). Screenshots of this validation are below:
+
+* [Home / Index](docs/validation/home-accesibillity-fixed.png)
+* [Menu](docs/validation/menu-accesibility-fixed.png)
+* [Club](docs/validation/club-accesibility-fixed.png)
+* [Contact](docs/validation/contact-accesibility-fixed.png)
+
+The Lighthouse feature in Chrome Developer Tools has also been used to assess the usability of the site. The lowest scores across the pages are; Performance: 87, Accessibilty: 95, Best Practices: 93 and SEO: 92. Screenshots of these tests are below:
+
+* [Home / Index](docs/validation/lighthouse-home.png)
+* [Menu](docs/validation/lighthouse-menu.png)
+* [Club](docs/validation/lighthouse-club.png)
+* [Contact](docs/validation/lighthouse-contact.png)
 
 
 ### Acknowledgements:
