@@ -416,7 +416,19 @@ Bug: 'Very Low Contrast' warnings during WAVE validation.\
 Fix: Used the WebAIM contrat checker and changed the contrast of colours in site. There was a consistant problem with the 'whitesmoke' text I was using before, but changing this to 'white' solved the accesibility issue. It was also better to use some heavier weighted font on some boxes, which improved contrast. 
 
 Bug: ARIA errors on social media links during WAVE validation.\
-Fix: 
+Fix: The error was related to them not having screen reader avialable text attached to them. This was resolved by borrowing some code from https://scottvinkle.me/blogs/work/hidden-content which added hidden text readable by screen readers to the link.
+
+Bug: WAVE validator failiing as I had empty buttons.\
+Fix: Realised just need to add a 'value' attribute to the HTML for the failing buttons. 
+
+Bug: iframe issues during HTML validation. Attributes linked to the iframe were leading to validation failures.\
+Fix: Before validation, inline styling was used, as inlcuded in the embedded code from YouTube and Google Maps. As it was indicated this was not correct, moved the styles to a CSS class, and added a border to improve styling wiht other on page elements too. Did initially cause another issue with the border and frame being different, then moved the class to the child rather than parent element which solved the issues. 
+
+Bug: Issues with the live version of page and images.\
+Fix: Discussed issue with tutor, advice was to include full path with repo included, which seems to have solved the issue. It was selective before however, so unsure if it was a bug with the coding or Github / Github pages.
+
+
+
 
 
 
@@ -459,6 +471,11 @@ First are some inspirations and interesting resources which were useful in comin
 * Assistance in centering elements vertically wihtin containers was taken from here, specifically from 'Update 2020' comment by Zim: https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap
 
 * Base code for embedding the PDF in the menu page came from this: https://stackoverflow.com/questions/14690000/how-to-embed-a-pdf. In particular the answer from Vuk Vasić. I'm particulary indebted as making the Adobe API work was not going well...
+
+* Code for ARIA improvment and passing the WAVE validator from https://scottvinkle.me/blogs/work/hidden-content. This allowed me to use a visuallyhidden attribute to add screen reader text to icon only links that were present. 
+
+* Code to help correctly size Bootstrap 5 carousel using CSS found at https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655. 
+
 
 #### Media acknoweldgements:
 
