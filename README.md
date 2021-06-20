@@ -7,7 +7,7 @@
 
 [Live version of website](https://michaelpearce21.github.io/CI_MS1_DAL/)
 
-Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffes, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
+Dice and Lattes is a new cafe in the heart of Caerphilly which doesn't just offer **exceptional** coffees, **responsibly sourced**, but also invites you to sit and enjoy a game with friends. 
 
 Alongside the extensive and growing collection of **board games**, our **Game Experts** will assist with game learning and make recommendations appropriate to guests requirements (such as player number and skill). Furthermore, excellent customer service through teaching these games to customer will keep people wanting to come and game!
 
@@ -24,7 +24,7 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
 4. [Testing](#testing)
      * General testing of features and navigation
      * Validation testing
-     * Accesibility testing
+     * Accessibility testing
 5. [Deployment](#deployment)
 6. [Bugs and Issues](#bugs-and-issues)
 7. [Acknowledgement](#acknowledgements)
@@ -34,16 +34,16 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
 
 ## High Level Idea
 
-A website to be created that will highlight the uniqueness of the board game cafe setup, as compared ot a traditional cafe. It should be approachable and not scare off new potential users wiht jargon, whilst also being reassuring to experienced players. It is assumed most users will be new to the site, and a majority of these will also be new or relatviely new to 'hobby' games. As well as explaining the concept, it will need to be easy to contac tthe cafe to make bookings and enquiries, and contact thorugh social media outlets too. It will need to be a responsive website. In the UK in 2020 the most important device for internet access is now the smartphone ([source](https://www.statista.com/statistics/387447/consumer-electronic-devices-by-internet-access-in-the-uk/)) and people will be relishing the opportunity to be out and about in 2021. 
+A website to be created that will highlight the uniqueness of the board game cafe setup, as compared to a traditional cafe. It should be approachable and not scare off new potential users with jargon, whilst also being reassuring to experienced players. It is assumed most users will be new to the site, and a majority of these will also be new or relatviely new to 'hobby' games. As well as explaining the concept, it will need to be easy to contact the cafe to make bookings and enquiries, and contact through social media outlets too. It will need to be a responsive website. In the UK in 2020 the most important device for internet access is now the smartphone ([source](https://www.statista.com/statistics/387447/consumer-electronic-devices-by-internet-access-in-the-uk/)) and people will be relishing the opportunity to be out and about in 2021. 
 
-The needs of the **business owners**, and **customers** have been considered in the designing phase of this project. These have been summerised into the following user stories:
+The needs of the **business owners**, and **customers** have been considered in the designing phase of this project. These have been summarised into the following user stories:
 
 ### User Stories:
 As a **business owner** I want a website so that I can expose my business more (1-7).
 
 As a **customer** I want a website to understand what makes this cafe special. (8-12):
 
-As a **regular user** I want a wesite to keep up to date 
+As a **regular user** I want a website to keep up to date 
 with events and recommendations. (13-15):
 
 To meet these needs we need:
@@ -66,10 +66,10 @@ To meet these needs we need:
 
 ### High level Needs and Trade-offs:
 
-There are several identified needs from these stories. In dicussion with the client, these were ranked from most to least important:
+There are several identified needs from these stories. In discussion with the client, these were ranked from most to least important:
 
 1. An attractive and well designed website. 
-2. Information about the business incluing the concept, location and contact details. 
+2. Information about the business including the concept, location and contact details. 
 3. A way to contact the cafe from the website.
 4. A shop where you can purchase games and pre-book tables.
 5. A menu and pricing information. 
@@ -92,7 +92,7 @@ From this exercise it was clear that there needed to be some compromise on the s
 
 Therefore, the key requirements of the initial website were:
 * An attractive and well designed website. 
-* Information about the business incluing the concept, location and contact details. 
+* Information about the business including the concept, location and contact details. 
 * A way to contact the cafe from the website.
 * A menu and pricing information.
 
@@ -100,9 +100,9 @@ Therefore, the key requirements of the initial website were:
 
 From the requirements it is clear to see an attractive website design, appealing to potential customers is key. There does not need to be blocks of technical language, graphs or tables, but images and summaries which will be enticing to customers. 
 
-Board games come with their own shorthand mental shortcuts for colour and we are all familiar with the bold primary colors of red, blue and yellow being used for pieces. There is a fear of uing too bold and bright colour being garish and harsh, so palettes were experimented with to give a general direction with colours for the project. Using the [coolers](https://coolors.co/04e762-f5b700-dc0073-008bf8-89fc00) website such a pallete was found, although this is an area which may be experimented on more as the project develops, usability and readability being important. 
+Board games come with their own shorthand mental shortcuts for colour and we are all familiar with the bold primary colors of red, blue and yellow being used for pieces. There is a fear of uing too bold and bright colour being garish and harsh, so palettes were experimented with to give a general direction with colours for the project. Using the [coolers](https://coolors.co/04e762-f5b700-dc0073-008bf8-89fc00) website such a palette was found, although this is an area which may be experimented on more as the project develops, usability and readability being important. 
 
-![Proposed Project colour pallete](docs/images/MS1-colours.png "Proposed Project colour pallette")
+![Proposed Project colour palette](docs/images/MS1-colours.png "Proposed Project colour palette")
 
 In terms of fonts, readability was the key to chosen fonts, as well as being conscious of needing to make a positive impression in potentially a short space of time. For these reasons, two popular fonts have been chosen 'Roboto' for header elements and 'Montserrat' for the main text elements.
 
@@ -111,7 +111,7 @@ In terms of fonts, readability was the key to chosen fonts, as well as being con
 ### Wireframes:
 
 From the requirements of the website it was decided the initial release should include 4 pages:
-  * A home page which will include the headline informaiton about the cafe and the concept. Contact informaiton such as location and social media links should also be included. 
+  * A home page which will include the headline information about the cafe and the concept. Contact information such as location and social media links should also be included. 
   * A menu page which should highlight the food and drinks on offer. 
   * A club page, where membership benefits are highlighted and recommendations of games are. 
   * A contact page which will highlight social media links as well as include a form for comments and questions. 
@@ -134,7 +134,7 @@ Wireframes of the pages for mobile / small and laptop / large screens can be fou
 
 ### Features and testing user stories:
 
-In this section the various parts of the website will be broken down into features and assessed how they stack up against the user storeis. Any extra features that would be good for the future, or upgrades to the current site will then be suggested. 
+In this section the various parts of the website will be broken down into features and assessed how they stack up against the user stories. Any extra features that would be good for the future, or upgrades to the current site will then be suggested. 
 
 Screenshots are of the laptop and large screen version, but important changes to mobile are mentioned.
 
@@ -152,7 +152,7 @@ This meets the user stories of:
 #### **Footer**:
 ![Footer](docs/images/footer.png "Footer Image")
 
-Common to all pages. On mobile view the elements stack on top of eachother (left to right). Keeping this consistant alongisde the header gives a familiar feel ot all pages, and continues the bold styling. It also includes some key information on every page, inlcuding address, opening times and the social media links for the cafe. 
+Common to all pages. On mobile view the elements stack on top of each other (left to right). Keeping this constant alongisde the header gives a familiar feel to all pages, and continues the bold styling. It also includes some key information on every page, including address, opening times and the social media links for the cafe. 
 
 This meets the user stories of:
 
@@ -165,7 +165,7 @@ This meets the user stories of:
 
 ![Modal](docs/images/modal.png "Model image")
 
-Seen twice in index.html through sign-up buttons, and again in the club.html button this is encouraged throughout as a way of keeping a dialouge between the user and the business. The use of a from to do so is familiar and it also prevents wrong information being entered by requiring the fields that are needed to keep in contact.
+Seen twice in index.html through sign-up buttons, and again in the club.html button this is encouraged throughout as a way of keeping a dialogue between the user and the business. The use of a from to do so is familiar and it also prevents wrong information being entered by requiring the fields that are needed to keep in contact.
 
 This meets the user stores of:
 
@@ -192,7 +192,7 @@ This meets the user stories of:
 
 ![About us](docs/images/about-us.png "About us image")
 
-Designed to succiently give more specifics about what to expect, highlighting the differences from a usual cafe experience. It also contains links to the newsletter modal, and to the club page. The opening times don't display on mobile, but they are in the footer. Picture gives shorthand for gaming to again reinforce the difference in this cafe. At tablet views another image of the cafe also displays, as this gave better balance of the elements. Fully responsive through sizes.
+Designed to succinctly give more specifics about what to expect, highlighting the differences from a usual cafe experience. It also contains links to the newsletter modal, and to the club page. The opening times don't display on mobile, but they are in the footer. Picture gives shorthand for gaming to again reinforce the difference in this cafe. At tablet views another image of the cafe also displays, as this gave better balance of the elements. Fully responsive through sizes.
 
 This meets the user stories of:
 
@@ -229,7 +229,7 @@ This meets the user stories of:
 
 ![Menu](docs/images/menu.png "Menu")
 
-Embedded as a PDF, which allows for easy changing of the menu in the future, as well as an intuituve and attractive user experience. The user will have access to a food and drink menu. In mobile form this is changed to a static menu. This decision was made as the UI became cluttered with the embedded PDF at small screen sizes. On all sizes the option for a seperate download type link is available also. 
+Embedded as a PDF, which allows for easy changing of the menu in the future, as well as an intuitive and attractive user experience. The user will have access to a food and drink menu. In mobile form this is changed to a static menu. This decision was made as the UI became cluttered with the embedded PDF at small screen sizes. On all sizes the option for a separate download type link is available also. 
 
 This meets the user stories of:
 
@@ -241,7 +241,7 @@ This meets the user stories of:
 
 ![Club info](docs/images/club.png "Club Information")
 
-This section is intended to give information about becomming a member and the benefits. It includes a link to the modal above to sign up as well as a drop down with a table highlighting the potential to save money for regular customers. The information and images stack vertically in mobile. The images are responsive also and their display changes dependant on the screen size. 
+This section is intended to give information about becoming a member and the benefits. It includes a link to the modal above to sign up as well as a drop down with a table highlighting the potential to save money for regular customers. The information and images stack vertically in mobile. The images are responsive also and their display changes dependant on the screen size. 
 
 In general this is an area more likely to be visited by repeat users, but intrigued new users may also visit. 
 
@@ -254,7 +254,7 @@ This meets the user stories of:
 
 ![Recommendations](docs/images/recommendation.png "Recommendations image")
 
-This highlights the Game Experts and gives recommendations on games which would be suitable as well as a YouTube link to a video explainign the recommendation. Designed to be intriguing to new users, but also informative to returning users in conjunction with the carousel underneth this element. Fully responsive in mobile view.
+This highlights the Game Experts and gives recommendations on games which would be suitable as well as a YouTube link to a video explaining the recommendation. Designed to be intriguing to new users, but also informative to returning users in conjunction with the carousel underneath this element. Fully responsive in mobile view.
 
 This meets the user stories of: 
 
@@ -266,7 +266,7 @@ This meets the user stories of:
 
 ![Carousel images](docs/images/carousel.png "Carousel images")
 
-Intended as an extention to the game recommendations above this. It highlights further recommendations using attractive photos. This can also highlight the interior of the cafe in the future with set up games also. 
+Intended as an extension to the game recommendations above this. It highlights further recommendations using attractive photos. This can also highlight the interior of the cafe in the future with set up games also. 
 
 This meets the user stories of:
 
@@ -288,7 +288,7 @@ This meets the user stories of:
 
 ![404 page](docs/images/404.png "404 error page")
 
-Whilst not a feature as such, it helps the user navigate if they should type a link incorrectly or the website fails in an unexpected way. It includes fmailiar navigation elements, whilst also inlcuding information in the main window of the site as to why they have ended up here. There is also a clickable link to the home page. 
+Whilst not a feature as such, it helps the user navigate if they should type a link incorrectly or the website fails in an unexpected way. It includes familiar navigation elements, whilst also inlcuding information in the main window of the site as to why they have ended up here. There is also a clickable link to the home page. 
 
 This meets the user story of: 
 
@@ -296,7 +296,7 @@ This meets the user story of:
 
 ### Features summary
 
-The features in the website cover the vast majority of the user stories identified in the design stage of the project. The main story not covered is around the direct booking of tables, but this was elminated from the first release of the site early on in design for a later release. 
+The features in the website cover the vast majority of the user stories identified in the design stage of the project. The main story not covered is around the direct booking of tables, but this was eliminated from the first release of the site early on in design for a later release. 
 
 There are several recommendations of where the site could expand to in the future however:
 * A booking system a user can use directly.
@@ -351,7 +351,7 @@ To fork a new copy of the repo (preserving the original copy):
 2. Click 'fork' - it's at the top right of the page. 
 3. You will have a copy of the repo in your own account!
 
-To Deploy the webiste using GitHub Pages, do the following:
+To Deploy the website using GitHub Pages, do the following:
 
 1. Log in to GitHub and find the [repo](https://github.com/michaelpearce21/CI_MS1_DAL)
 2. Click on 'Settings' its the rightmost tab just above the file list and buttons. 
@@ -399,7 +399,7 @@ The machine used to test these is an Apple MacBook Air M1, 2020. Google Chrome D
 
 All main pages HTML have been tested using the [W3C Markup Validation Service website](https://validator.w3.org/).
 
-No errors returned on any page, with one wanring on club.html. This warning related to not using a h1 heading. Given the layout and content, it is a design deicison not to use one. Screenshots of the validation are below:
+No errors returned on any page, with one warning on club.html. This warning related to not using a h1 heading. Given the layout and content, it is a design decision not to use one. Screenshots of the validation are below:
 
 * [Home / Index](docs/validation/home-page-validation.png)
 * [Menu](docs/validation/menu-validation.png)
@@ -415,7 +415,7 @@ No errors have been returned for any page. All pages do have 3 contrast errors, 
 * [Club](docs/validation/club-accesibility-fixed.png)
 * [Contact](docs/validation/contact-accesibility-fixed.png)
 
-The Lighthouse feature in Chrome Developer Tools has also been used to assess the usability of the site. The lowest scores across the pages are; Performance: 87, Accessibilty: 95, Best Practices: 93 and SEO: 92. Screenshots of these tests are below:
+The Lighthouse feature in Chrome Developer Tools has also been used to assess the usability of the site. The lowest scores across the pages are; Performance: 87, Accessibility: 95, Best Practices: 93 and SEO: 92. Screenshots of these tests are below:
 
 * [Home / Index](docs/validation/lighthouse-home.png)
 * [Menu](docs/validation/lighthouse-menu.png)
@@ -441,24 +441,24 @@ Bug: Favicon not displaying.\
 Fix: Meeting with a tutor who recognised I hadn't included the full path - an easy one for another pair of eyes, but I won't forget that again.
 
 Bug: 'Very Low Contrast' warnings during WAVE validation.\
-Fix: Used the WebAIM contrat checker and changed the contrast of colours in site. There was a consistant problem with the 'whitesmoke' text I was using before, but changing this to 'white' solved the accesibility issue. It was also better to use some heavier weighted font on some boxes, which improved contrast. 
+Fix: Used the WebAIM contrat checker and changed the contrast of colours in site. There was a problem with the 'whitesmoke' text I was using before, but changing this to 'white' solved the accessibility issue. It was also better to use some heavier weighted font on some boxes, which improved contrast. 
 
 Bug: ARIA errors on social media links during WAVE validation.\
-Fix: The error was related to them not having screen reader avialable text attached to them. This was resolved by borrowing some code from https://scottvinkle.me/blogs/work/hidden-content which added hidden text readable by screen readers to the link.
+Fix: The error was related to them not having screen reader available text attached to them. This was resolved by borrowing some code from https://scottvinkle.me/blogs/work/hidden-content which added hidden text readable by screen readers to the link.
 
-Bug: WAVE validator failiing as I had empty buttons.\
+Bug: WAVE validator failing as I had empty buttons.\
 Fix: Realised just need to add a 'value' attribute to the HTML for the failing buttons. 
 
 Bug: iframe issues during HTML validation. Attributes linked to the iframe were leading to validation failures.\
-Fix: Before validation, inline styling was used, as inlcuded in the embedded code from YouTube and Google Maps. As it was indicated this was not correct, moved the styles to a CSS class, and added a border to improve styling wiht other on page elements too. Did initially cause another issue with the border and frame being different, then moved the class to the child rather than parent element which solved the issues. 
+Fix: Before validation, inline styling was used, as included in the embedded code from YouTube and Google Maps. As it was indicated this was not correct, moved the styles to a CSS class, and added a border to improve styling wiht other on page elements too. Did initially cause another issue with the border and frame being different, then moved the class to the child rather than parent element which solved the issues. 
 
 Bug: Issues with the live version of page and images.\
 Fix: Discussed issue with tutor, advice was to include full path with repo included, which seems to have solved the issue. It was selective before however, so unsure if it was a bug with the coding or Github / Github pages.
 
 Bug: Issue with small gap between pages with background images and the footer.\
-fix: Created an id to fix the margin gap found looking on Developer Tools. Used an id to prevent any classes overiding this. 
+fix: Created an id to fix the margin gap found looking on Developer Tools. Used an id to prevent any classes overriding this. 
 
-Bug: Althogh images were responsive left a lot of white space on certain screen sizes on index and club pages. 
+Bug: Although images were responsive left a lot of white space on certain screen sizes on index and club pages. 
 Fix: Used Bootstrap classes to add pictures to fill spaces at certain sizes to better balance pages, using the d-none d-lg-block classes for example. 
 
 
@@ -489,7 +489,7 @@ First are some inspirations and interesting resources which were useful in comin
 
 * I quickly realised my Git commit messages needed more, so read this as a beginners guide: https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/.
 
-* w3schools tutorials were also used through the site, particualrly when looking at attributes. Some tips were taken when working with iframes, blockquotes, textareas, meta tags, and CSS image styling, although no blocks of code were directly included.
+* w3schools tutorials were also used through the site, particularly when looking at attributes. Some tips were taken when working with iframes, blockquotes, textareas, meta tags, and CSS image styling, although no blocks of code were directly included.
 
 * YouTube and Google Maps iframe base code from using the embedded link from the respective websites, ammeded with custom CSS. 
 
@@ -497,20 +497,20 @@ First are some inspirations and interesting resources which were useful in comin
 
 * At this point the vast majority of my web design, coding and implementation knowledge comes from the great teaching resources at the Code Institute. Whilst direct code hasn't been used, I'm sure some good practices and inspiration would have come from this. 
 
-* Last, and by no means least, thanks to my wife, Leanne, for the many cups of tea and welcome distracitons at the times code wasn't flowing. 
+* Last, and by no means least, thanks to my wife, Leanne, for the many cups of tea and welcome distractions at the times code wasn't flowing. 
 
 #### Direct code acknowledgement:
 
-* Assistance in centering elements vertically wihtin containers was taken from here, specifically from 'Update 2020' comment by Zim: https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap
+* Assistance in centering elements vertically within containers was taken from here, specifically from 'Update 2020' comment by Zim: https://stackoverflow.com/questions/22196587/how-to-vertically-center-a-container-in-bootstrap
 
-* Base code for embedding the PDF in the menu page came from this: https://stackoverflow.com/questions/14690000/how-to-embed-a-pdf. In particular the answer from Vuk Vasić. I'm particulary indebted as making the Adobe API work was not going well...
+* Base code for embedding the PDF in the menu page came from this: https://stackoverflow.com/questions/14690000/how-to-embed-a-pdf. In particular the answer from Vuk Vasić. I'm particularly indebted as making the Adobe API work was not going well...
 
-* Code for ARIA improvment and passing the WAVE validator from https://scottvinkle.me/blogs/work/hidden-content. This allowed me to use a visuallyhidden attribute to add screen reader text to icon only links that were present. 
+* Code for ARIA improvement and passing the WAVE validator from https://scottvinkle.me/blogs/work/hidden-content. This allowed me to use a visuallyhidden attribute to add screen reader text to icon only links that were present. 
 
 * Code to help correctly size Bootstrap 5 carousel using CSS found at https://stackoverflow.com/questions/38695846/change-height-of-bootstrap-carousel-keeping-it-responsive/38696655. 
 
 
-#### Media acknoweldgements:
+#### Media acknowledgements:
 
 As stated above, the images for the project have come from Pexels, Unsplash and BoardGameGeek (BGG). All images were free to use, and credited in the code. I have credited the authors below in order also:
 
