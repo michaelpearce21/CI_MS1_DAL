@@ -369,7 +369,7 @@ The machine used to test these is an Apple MacBook Air M1, 2020. Google Chrome D
 
 #### Validation Testing:
 
-All main pages have been tested using the [W3C Markup Validation Service website](https://validator.w3.org/).
+All main pages HTML have been tested using the [W3C Markup Validation Service website](https://validator.w3.org/).
 
 No errors returned on any page, with one wanring on club.html. This warning related to not using a h1 heading. Given the layout and content, it is a design deicison not to use one. Screenshots of the validation are below:
 
@@ -398,6 +398,28 @@ The style.css page was also validated by using the [W3C CSS Validation Service](
 
 * [CSS validation](docs/validation/css-validation.png)
 * [Warning](docs/validation/css-validation-2.png)
+
+### Bugs and Issues:
+
+Whilst not every issue might be listed here through the process, this documents the problems which needed the most thought:
+
+Bug: Layout of containers initially.\
+Fix: Through using the Bootstrap documentation realised I was not including a 'row' element before 'col' in some containers which was leading to strange behaviour. 
+
+Bug: Using Adobe API for PDF in menu.html - was not letting me use the Github pages url for validation\
+Fix: Found a method of embedding the PDF through HTML rather than using the API. Personal development point to learn to use API's as I learn JavaScript. 
+
+Bug: Favicon not displaying.\
+Fix: Meeting with a tutor who recognised I hadn't included the full path - an easy one for another pair of eyes, but I won't forget that again.
+
+Bug: 'Very Low Contrast' warnings during WAVE validation.\
+Fix: Used the WebAIM contrat checker and changed the contrast of colours in site. There was a consistant problem with the 'whitesmoke' text I was using before, but changing this to 'white' solved the accesibility issue. It was also better to use some heavier weighted font on some boxes, which improved contrast. 
+
+Bug: ARIA errors on social media links during WAVE validation.\
+Fix: 
+
+
+
 
 
 ### Acknowledgements:
