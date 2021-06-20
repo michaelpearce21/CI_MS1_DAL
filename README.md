@@ -41,7 +41,7 @@ As a **business owner** I want a website so that I can expose my business more (
 As a **customer** I want a website to understand what makes this cafe special. (8-12):
 
 As a **regular user** I want a wesite to keep up to date 
-with events and recommendations. (13-14):
+with events and recommendations. (13-15):
 
 To meet these needs we need:
 
@@ -58,7 +58,8 @@ To meet these needs we need:
 11. Information about how to find and contact the cafe. 
 12. To be able to book tables direct from the website. 
 13. A newsletter which may include dates of events and special offers.
-14. A membership to encourage repeat returns. 
+14. A membership to encourage repeat returns.
+15. Game recommendations for my visits.
 
 ### High level Needs and Trade-offs:
 
@@ -233,6 +234,41 @@ This meets the user stories of:
 * The website is attractive and intuitive to potential customers (5).
 * Information about the menu and pricing (10).
 
+#### **Club information**:
+
+![Club info](docs/images/club.png "Club Information")
+
+This section is intended to give information about becomming a member and the benefits. It includes a link to the modal above to sign up as well as a drop down with a table highlighting the potential to save money for regular customers. The information and images stack vertically in mobile. The images are responsive also and their display changes dependant on the screen size. 
+
+In general this is an area more likely to be visited by repeat users, but intrigued new users may also visit. 
+
+This meets the user stories of:
+
+* The concept is easily and clearly explained (2).
+* A membership to encourage repeat returns (14).
+
+#### Game Recommendations**:
+
+![Recommendations](docs/images/recommendation.png "Recommendations image")
+
+This highlights the Game Experts and gives recommendations on games which would be suitable as well as a YouTube link to a video explainign the recommendation. Designed to be intriguing to new users, but also informative to returning users in conjunction with the carousel underneth this element. Fully responsive in mobile view.
+
+This meets the user stories of: 
+
+* The website is attractive and intuitive to potential customers (5).
+* Information on what is different about this cafe, easily digestible and clearly explained (8).
+* Game recommendations for my visits (15).
+
+#### **Carousel**:
+
+![Carousel images](docs/images/carousel.png "Carousel images")
+
+Intended as an extention to the game recommendations above this. It highlights further recommendations using attractive photos. This can also highlight the interior of the cafe in the future with set up games also. 
+
+This meets the user stories of:
+
+* Information on what is different about this cafe, easily digestible and clearly explained (8).
+* Game recommendations for my visits (15).
 
 ### Technologies Used
 
