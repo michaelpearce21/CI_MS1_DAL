@@ -323,7 +323,8 @@ Resources:
   * GitHub.com - Version control system. 
   * pages.github.com - For hosting final website.
   * unsplash.com, pexels.com and boardgamegeek.com - For images used through site.
-  * webaim.org/resources/contrastchecker/ - Used to check contrast and solve a few validation issues. 
+  * webaim.org/resources/contrastchecker/ - Used to check contrast and solve a few validation issues.
+  * ami.responsivedesign.is/ - Used to create mock-up image. 
   * coolors.co - Used to generate a color scheme.
   * fonts.google.com - Used to find good fonts for UX. 
 
@@ -392,6 +393,11 @@ The Lighthouse feature in Chrome Developer Tools has also been used to assess th
 * [Menu](docs/validation/lighthouse-menu.png)
 * [Club](docs/validation/lighthouse-club.png)
 * [Contact](docs/validation/lighthouse-contact.png)
+
+The style.css page was also validated by using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The validation passed with no errors, the only wanring being linked to the importing of the Google Fonts. Screenshots of the result are below:
+
+* [CSS validation](docs/validation/css-validation.png)
+* [Warning](docs/validation/css-validation-2.png)
 
 
 ### Acknowledgements:
