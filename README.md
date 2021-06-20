@@ -234,7 +234,7 @@ This meets the user stories of:
 * The website is attractive and intuitive to potential customers (5).
 * Information about the menu and pricing (10).
 
-#### **Club information**:
+#### **Club information (club.html)**:
 
 ![Club info](docs/images/club.png "Club Information")
 
@@ -247,7 +247,7 @@ This meets the user stories of:
 * The concept is easily and clearly explained (2).
 * A membership to encourage repeat returns (14).
 
-#### Game Recommendations**:
+#### Game Recommendations (club.html)**:
 
 ![Recommendations](docs/images/recommendation.png "Recommendations image")
 
@@ -259,7 +259,7 @@ This meets the user stories of:
 * Information on what is different about this cafe, easily digestible and clearly explained (8).
 * Game recommendations for my visits (15).
 
-#### **Carousel**:
+#### **Carousel (club.html)**:
 
 ![Carousel images](docs/images/carousel.png "Carousel images")
 
@@ -269,6 +269,27 @@ This meets the user stories of:
 
 * Information on what is different about this cafe, easily digestible and clearly explained (8).
 * Game recommendations for my visits (15).
+
+#### **Contact (contact.html)**:
+
+A combination of an invite to contact with social media links and direct email link, as well as a contact form. This gives multiple methods of contact, whilst not overwhelming the user. It repeats the visual styles of the site, and the social links are common to the rest of the site also. In mobile the contact boxes stack. The background image also improves the look and avoids the page looking sparse. 
+
+This meets the user stories of: 
+
+* Customers can find the cafe and contact us, both directly and through our social media (Facebook, Twitter and Instagram) (3).
+* The website is attractive and intuitive to potential customers (5).
+* A link to social media (9).
+* Information about how to find and contact the cafe (11).
+
+#### **404 page**:
+
+![404 page](docs/images/404.png "404 error page")
+
+Whilst not a feature as such, it helps the user navigate if they should type a link incorrectly or the website fails in an unexpected way. It includes fmailiar navigation elements, whilst also inlcuding information in the main window of the site as to why they have ended up here. There is also a clickable link to the home page. 
+
+This meets the user story of: 
+
+* The website is attractive and intuitive to potential customers (5).
 
 ### Technologies Used
 
