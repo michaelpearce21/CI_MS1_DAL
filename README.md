@@ -13,22 +13,22 @@ Alongside the extensive and growing collection of **board games**, our **Game Ex
 
 ## Contents
 
-* User Experience and Design
-  * High Level Idea
-  * User Stories
-  * High Level Needs and Trade-offs
-  * Colour and Typography Design
-  * Wireframes
-* Features and Testing User Stories
-* Technologies Used
-* Testing
-  * General testing of features and navigation
-  * Validation testing
-  * Accesibility testing
-* Deployment
-* Bugs and Issues
-* Acknowledgement
-* Disclaimer
+1. [User Experience and Design](#user-experience-and-design)
+     * High Level Idea
+     * User Stories
+     * High Level Needs and Trade-offs
+     * Colour and Typography Design
+     * Wireframes
+2. [Features and Testing User Stories](#features-and-testing-user-stories)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+     * General testing of features and navigation
+     * Validation testing
+     * Accesibility testing
+5. [Deployment](#deployment)
+6. [Bugs and Issues](#bugs-and-issues)
+7. [Acknowledgement](#acknowledgements)
+8. [Disclaimer](#disclaimer)
 
 ## User Experience and Design
 
